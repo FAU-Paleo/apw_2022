@@ -1,3 +1,3 @@
 # README
 
-Currently built [here](http://github.adamkocsis.io/apw_2022/). 
+Currently built [here](https://adamkocsis.github.io/apw_2022/). 
