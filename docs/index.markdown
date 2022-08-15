@@ -4,3 +4,9 @@
 
 layout: home
 ---
+
+# This is the main page
+
+Some bits of information to test the workflow!
+
+# Schedule
