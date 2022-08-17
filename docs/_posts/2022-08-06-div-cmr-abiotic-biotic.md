@@ -1,7 +1,7 @@
 ---
-title: "Module 1: Basic toolset"
+title: "CMR methods and Biotic/Abiotic controls of global diversity"
 layout: "post" 
-permalink: "toolset/"
+permalink: "cmr_bio_abio/"
 ---
 
 # Toolset

@@ -1,7 +1,7 @@
 ---
-title: "Module 1: Basic toolset"
+title: "Global diversity dynamics"
 layout: "post" 
-permalink: "toolset/"
+permalink: "globaldiv/"
 ---
 
 # Toolset

@@ -1,7 +1,7 @@
 ---
-title: "Module 1: Basic toolset"
+title: "Introduction to Analytical Paleobiolgy"
 layout: "post" 
-permalink: "toolset/"
+permalink: "paleodiversity/"
 ---
 
 # Toolset

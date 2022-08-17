@@ -1,7 +1,7 @@
 ---
-title: "Module 1: Basic toolset"
+title: "Geometric morphometrics"
 layout: "post" 
-permalink: "toolset/"
+permalink: "morphometrics/"
 ---
 
 # Toolset

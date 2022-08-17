@@ -20,11 +20,8 @@
 
 title: Material of the Analytical Paleobiology Workshop 2022 
 email: adam.kocsis@fau.de
-description: Here you can find all the material to the 2022 Analytical Paleobiology Workshop in Erlangen.
+description: The workshop is sponsored by the Paleosynthesis project. 
 baseurl: "/apw_2022/" # the subpath of your site, e.g. /blog
-url: "http://adamkocsis.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 theme: minima

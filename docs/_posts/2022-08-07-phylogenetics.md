@@ -1,7 +1,7 @@
 ---
-title: "Module 1: Basic toolset"
+title: "Phylogenetics"
 layout: "post" 
-permalink: "toolset/"
+permalink: "phylogenetics/"
 ---
 
 # Toolset
