@@ -1,6 +1,6 @@
 # README
 
-Currently built [here](http://github.fau-paleo.io/apw_2022/). 
+Currently built at [https://fau-paleo.github.io/apw_2022/](https://fau-paleo.github.io/apw_2022/). 
 
 ## About Jekyll
 
@@ -21,6 +21,7 @@ If you have Jekyll installed on your computer, you can also render and check out
 
 - I will make the links to the material in the schedule table available on the fly. To help you explore they are all live at the moment.  
 
+- If all of this feels overwhelming, don't worry. I (Adam) is more than happy to put material on for you if you'd like!
 
 
 ## Markdown
