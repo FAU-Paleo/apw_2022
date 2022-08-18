@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Analytical Paleobiolgy"
+title: "Introduction to Analytical Paleobiology"
 layout: "post" 
 permalink: "paleodiversity/"
 ---
