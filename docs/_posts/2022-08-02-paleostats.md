@@ -4,7 +4,7 @@ layout: "post"
 permalink: "paleodiversity/"
 ---
 
-# A heading 
+# Test: Community-level diversity 
 
 Link to [an external website](https://git-scm.com/).
 
