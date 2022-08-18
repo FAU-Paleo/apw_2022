@@ -4,10 +4,10 @@ Currently built at [https://fau-paleo.github.io/apw_2022/](https://fau-paleo.git
 
 ## About Jekyll
 
-The page is built with jekyll, a neet ruby program which translates markdown documents to html and builds them as static websites. It is insanely powerful. The building process itself is exectued by GitHub itself, you make the changes commit and push them to the repository and in 5 minutes they should be visible - given that everything you have done is ok. If you want to learn more about this, check out [this page](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll). 
+The page is built with jekyll, a neet ruby program which translates markdown (and html) documents to html and builds them as static websites. It is insanely powerful. The building process itself is exectued by GitHub itself, you make the changes, commit and push them to the repository and in 1 minute they should be visible - given that everything you have done is ok. If you want to learn more about this, check out [this page](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll). 
 
 
-If you have Jekyll installed on your computer, you can also render and check out how the page looks like - but the page is so simple that this is not necessary.  
+If you have Jekyll installed on your computer, you can also render and check out how the page looks like offline - but the page is so simple that this is not necessary.  
 
 ## For Instructors 
 
