@@ -44,7 +44,7 @@ To help keep everything organsied, you'll find subfolders within the main data a
 These should go in the `data` directory: `{{site.baseurl}}/data/<your directory path>/filename.ext`
 The markdown `{{site.baseurl}}/data/1_toolset/metadata.txt` is built as `https://fau-paleo.github.io/apw_2022/data/1_toolset/metadata.txt`
 
-2. Slideshow presentations 
+2. Slideshow presentations   
 These should go in the `slides` directory: `{{site.baseurl}}/data/<your directory path>/filename.ext`
 
 The markdown `{{site.baseurl}}/slides/1_toolset/slide_meta.txt` is built as `https://fau-paleo.github.io/apw_2022/slides/1_toolset/slide_meta.txt`
