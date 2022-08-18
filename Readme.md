@@ -13,7 +13,7 @@ If you have Jekyll installed on your computer, you can also render and check out
 
 *You are expected to edit the module-specific pages*, which are in the `_posts` directory. These pages have a front matter (before the dashes), don't worry about those - except for the title, which you are more than welcome to change.
 
-- For novice git users: to avoid chaos please only edit the page that you are responsible for. If pushing fails, do a pull first. If all of this feels overwhelming, don't worry. I (Adam) is more than happy to put material on for you if you'd like!
+- For novice git users: to avoid chaos please only edit the page that you are responsible for and use the GitHub interface. If all of this feels overwhelming, don't worry. I (Adam) is more than happy to put material on for you if you'd like!
 
 - I have included examples on every one of these to 1. include links to external files 2. links to downloadable files and 3. images. You can copy these and modify them to include all the material you want to share. You are also welcome to explore! 
 
