@@ -35,6 +35,14 @@ If you have Jekyll installed on your computer, you can also render and check out
 - I will make the links to the material in the schedule table available on the fly. To help you explore, they are all live at the moment. Even though the links will not work (not to disorient the students), the URLs will be live. It is a good idea therefore to save the URL of the page that you are editing. 
 
 
+## Suggested organisation scheme for files
+
+To help keep everything organsied, you'll find subfolders within the main data and slideshows folders under the name of your module(s). We suggest dividing your files as follows:
+
+- Datasets, scripts, associated files -> data
+- Slideshow presentations -> slideshows
+
+
 ## Markdown
 
 You can find a cheat sheet [here](https://www.markdownguide.org/cheat-sheet/).
