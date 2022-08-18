@@ -22,7 +22,7 @@ Welcome to the Analytical Paleobiology Workshop. On this webpage you will find t
 |--------------|---------------------------------------------|----------------------------------------------------------------------------------------------|
 | Aug. 29      | [GIS Basics in R]({{site.baseurl}}/gis/)                                  | [A. Kocsis](https://www.gzn.nat.fau.de/palaeontologie/team/wissenschaftler/kocsis/)                                                                                    |
 | Aug. 30-31   | [Basic diversity dynamics and selectivity]({{site.baseurl}}/globaldiv/) | E. Dunne, [A. Kocsis](https://www.gzn.nat.fau.de/palaeontologie/team/wissenschaftler/kocsis/), [C. Reddin](https://www.gzn.nat.fau.de/palaeontologie/team/former-members/reddin/)                                                               |
-| Sep. 1-2     | [Capture-Mark-Recapture methods]({{site.baseurl}}cmr_bio_abio/)              | [L. H. Liow](https://leehsiangliow.com/)                                                                                   |
+| Sep. 1-2     | [Capture-Mark-Recapture methods]({{site.baseurl}}/cmr_bio_abio/)              | [L. H. Liow](https://leehsiangliow.com/)                                                                                   |
 |--------------|---------------------------------------------|----------------------------------------------------------------------------------------------|
 | **Sep. 3-4** | **--Break--**                               |                                                                                              |
 |--------------|---------------------------------------------|----------------------------------------------------------------------------------------------|
