@@ -17,11 +17,11 @@ If you have Jekyll installed on your computer, you can also render and check out
 
 - I have included examples on every one of these to 1. include links to external files 2. links to downloadable files and 3. images. You can copy these and modify them to include all the material you want to share. You are also welcome to explore! 
 
-- The data files should be put in the `data` directory, then the format `{{site.baseurl}}/data/<your directory path>/filename.ext` is used to create the link to the file. They need to be committed to the git repo. GitHub has a file size limit, if you want to share files that are bigger than 100MB, please use and external hosting service and provide the download links. Do not share sensitive files here. 
+- The data files should be put in the `data` directory, then the format `{{site.baseurl}}/data/<your directory path>/filename.ext` is used to create the link to the file. They need to be committed to the git repo. GitHub has a file size limit, if you want to share files that are bigger than 100MB, please use an external hosting service and provide the download links. I (Adam) can also put up big files here. Do not share sensitive files here. 
 
-- The dates of the posts control when they are visible, future posts are not visible, hence the past dates! 
+- The dates of the posts control when they are visible, future posts are not visible, hence the past dates
 
-- I will make the links to the material in the schedule table available on the fly. To help you explore they are all live at the moment.  
+- I will make the links to the material in the schedule table available on the fly. To help you explore, they are all live at the moment. Even though the links will not work (not to disorient the students), the URLs will be live. It is a good idea therefore to save the URL of the page that you are editing. 
 
 
 ## Markdown
