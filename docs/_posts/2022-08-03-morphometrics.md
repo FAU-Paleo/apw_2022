@@ -4,7 +4,7 @@ layout: "post"
 permalink: "morphometrics/"
 ---
 
-# A heading 
+# Test Git configuration
 
 Link to [an external website](https://git-scm.com/).
 
