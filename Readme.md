@@ -16,7 +16,7 @@ If you have Jekyll installed on your computer, you can also render and check out
 | file                                 | correspondent(s) |
 |--------------------------------------|------------------|
 | 2022-08-01-toolset.md                | Adam/Nuss        |
-| 2022-08-02-paleostats.md             | Emma/Wolfgang    |
+| 2022-08-02-paleodiversity.md         | Wolfgang/Emma    |
 | 2022-08-03-morphometrics.md          | Manuel           |
 | 2022-08-04-gis.md                    | Adam             |
 | 2022-08-05-global-diversity.md       | Adam/Emma/Carl   |

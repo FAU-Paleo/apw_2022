@@ -1,17 +1,63 @@
 ---
-title: "Introduction to Diversity Analysis with R"
+title: "Module 2: Paleodiversity Analyses in R"
 layout: "post" 
 permalink: "paleodiversity/"
 ---
 
-# Test: Community-level diversity 
 
-Link to [an external website](https://git-scm.com/).
+## Module 2: Paleodiversity analyses
 
-You can download any material like this: [file_name.txt]({{site.baseurl}}/data/2_paleodiversity/metadata.txt)
+#### Sections
+
+| When   | What                                                          |
+|--------|---------------------------------------------------------------|
+| Aug 24 | Day 3: Community diversity                                    |
+| Aug 25 | Day 4: Exploring fossil occurrence data and sampling          |
+|--------|---------------------------------------------------------------|
+
+
+## Day 3: Community diversity - Wolfgang Kiessling
+
+#### Purpose
+- 
+
+
+### R code
+- [Alpha_div.R]({{site.baseurl}}/data/2_paleodiversity/Alpha_div.R)
+- [Beta_div.R]({{site.baseurl}}/data/2_paleodiversity/Beta_div.R)
+- [sqs_Holland.R]({{site.baseurl}}/data/2_paleodiversity/sqs_Holland.R)
+
+
+### Datasets
+- [Cassian.csv]({{site.baseurl}}/data/2_paleodiversity/Cassian.csv)
+- [Radiolarians.csv]({{site.baseurl}}/data/2_paleodiversity/Radiolarians.csv)
+- [Triassic_div.csv]({{site.baseurl}}/data/2_paleodiversity/Triassic_div.csv)
+
+
+### Reading list
+- [Cooper and Hsing, 2017 - Reproducible code]({{site.baseurl}}/data/1_toolset/Papers/Cooper and Hsing, 2017 - Guide to reproducible code.pdf)
+- [Wilkinson et al. 2016 - FAIR principles]({{site.baseurl}}/data/1_toolset/Papers/Wilkinson et al. - 2016 - The FAIR Guiding Principles.pdf)
+
+
+
+
+## Day 4: Exploring fossil occurrence data and sampling - Emma Dunne
+
+
+#### Purpose
+- Introduction to the [Paleobiology Database](https://paleobiodb.org/#/)
+- Learn how to download and clean PBDB occurrence data
+- Plot and explore occurrence data
+
+
+### R code
+- [example.R]({{site.baseurl}}/data/2_paleodiversity/Alpha_div.R)
+
+
+### Reading list
+
+
 
 ![img](https://www.paleosynthesis.nat.fau.de/wp-content/uploads/2019/09/Icon-SummerSchool-150x150.png)
-
-
 
 
