@@ -10,7 +10,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.0.36">
 
-  <title>Introduction to machine learning - 1 - A quick intro to machine learning</title>
+  <title>Introduction to machine learning - 3 - What makes a model?</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -379,10 +379,10 @@
   </style>
   <link href="../site_libs/countdown-0.4.0/countdown.css" rel="stylesheet">
   <script src="../site_libs/countdown-0.4.0/countdown.js"></script>
-<meta property="og:title" content="Introduction to machine learning - 1 - A quick intro to machine learning">
+<meta property="og:title" content="Introduction to machine learning - 3 - What makes a model?">
 <meta property="og:description" content="Analytical Paleobiology Workshop 2022">
 <meta property="og:site-name" content="Introduction to machine learning">
-<meta name="twitter:title" content="Introduction to machine learning - 1 - A quick intro to machine learning">
+<meta name="twitter:title" content="Introduction to machine learning - 3 - What makes a model?">
 <meta name="twitter:description" content="Analytical Paleobiology Workshop 2022">
 <meta name="twitter:card" content="summary">
 </head>
@@ -392,142 +392,117 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">1 - A quick intro to machine learning</h1>
+  <h1 class="title">3 - What makes a model?</h1>
   <p class="subtitle">Analytical Paleobiology Workshop 2022</p>
 </section>
 
-<section id="who-are-you" class="slide level2">
-<h2>Who are you?</h2>
-<ul>
-<li><p>You know a bit about R.</p></li>
-<li><p>You have exposure to basic statistical concepts</p></li>
-<li><p>You do <strong>not</strong> need intermediate or expert familiarity with modeling or ML</p></li>
-</ul>
-</section>
-<section id="who-am-i" class="slide level2">
-<h2>Who am I?</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<p><img src="https://pbs.twimg.com/profile_images/1323713609764081665/mA5y16pA_400x400.jpg" style="border-radius: 50%;" width="250px"></p>
-</div><div class="column" style="width:70%;">
-<p><i class="fa fa-github"></i> <a href="https://github.com/nussaibahrs">@nussaibahrs</a></p>
-<p><i class="fa fa-twitter"></i> <a href="https://twitter.com/mauritiantales">@mauritiantales</a></p>
-<p><i class="fa fa-link"></i> <a href="https://nussaibahrs.github.io/">nussaibahrs.github.io</a></p>
-<p><i class="fa fa-envelope"></i><a href="mailto:nussaibah.raja.schoob@fau.de">nussaibah.raja.schoob@fau.de</a></p>
-</div>
-</div>
-</section>
-<section>
-<section id="asking-for-help" class="title-slide slide level1 center">
-<h1>Asking for help</h1>
-<div class="fragment">
-<p>🎀 “I’m stuck and need help!”</p>
-<p>🟨 “I finished the exercise”</p>
-</div>
-</section>
-<section id="plan-for-this-workshop" class="slide level2">
-<h2>Plan for this workshop</h2>
-<ul>
-<li>Your data budget</li>
-<li>What makes a model</li>
-<li>Examples of model types</li>
-<li>Evaluating models</li>
-<li>Feature engineering</li>
-<li>Tuning hyperparameters</li>
-<li>Wrapping up!</li>
-</ul>
-</section>
-<section id="what-is-machine-learning" class="slide level2">
-<h2>What is machine learning?</h2>
-
-<img data-src="https://imgs.xkcd.com/comics/machine_learning.png" class="r-stretch quarto-figure-center"><div class="footer">
-<p><a href="https://xkcd.com/1838/" class="uri">https://xkcd.com/1838/</a></p>
-</div>
-</section>
-<section id="what-is-machine-learning-1" class="slide level2">
-<h2>What is machine learning?</h2>
-
-<img data-src="images/what_is_ml.jpg" class="r-stretch quarto-figure-center"><div class="footer">
-<p>Illustration credit: <a href="https://vas3k.com/blog/machine_learning/" class="uri">https://vas3k.com/blog/machine_learning/</a></p>
-</div>
-</section>
-<section id="what-is-machine-learning-2" class="slide level2">
-<h2>What is machine learning?</h2>
-
-<img data-src="images/ml_illustration.jpg" class="r-stretch quarto-figure-center"><div class="footer">
-<p>Illustration credit: <a href="https://vas3k.com/blog/machine_learning/" class="uri">https://vas3k.com/blog/machine_learning/</a></p>
-</div>
-</section>
 <section id="your-turn" class="slide level2" data-transition="slide-in">
 <h2>Your turn</h2>
 <p><img data-src="images/parsnip-flagger.jpg" class="absolute" style="top: 0px; right: 0px; width: 150px; height: 150px; "></p>
-<div class="fragment">
-<p><em>How are statistics and machine learning related?</em></p>
-<p><em>How are they similar? Different?</em></p>
+<p><em>How many different models can you think of?</em></p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="statistics-vs-ml" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="how-many-models" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 </div>
 </div>
+</section>
+<section id="section" class="slide level2" data-background-image="https://i.vas3k.ru/7vx.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer" style="text-align: left;">
+<p>Illustration credit: <br>https://vas3k.com/blog/machine_learning/</p>
 </div>
 </section>
-<section id="section" class="slide level2">
-<h2></h2>
-</section></section>
-<section>
-<section id="statistics-draws-population-inferences-from-a-sample-and-machine-learning-finds-generalisable-predictive-patterns." class="title-slide slide level1 center">
-<h1><strong>Statistics draws population <em>inferences</em> from a sample, and machine learning finds <em>generalisable predictive patterns</em>.</strong></h1>
-<p>Read more about it <a href="https://doi.org/10.1038/nmeth.4642">here</a>.</p>
+<section id="steps-for-applying-machine-learning" class="slide level2">
+<h2>Steps for applying machine learning <img data-src="hexes/h2o.png" class="absolute" style="top: -20px; right: 0px; width: 64px; height: 74.24px; "></h2>
+<ul>
+<li>Choose a <u>model</u></li>
+<li>Specify additional parameters if any.</li>
+<li>That’s it for now!</li>
+</ul>
 </section>
-<section id="the-extinction-risk-of-corals-worldwide" class="slide level2">
-<h2>The extinction risk of corals worldwide</h2>
-
-<img data-src="images/iucn.jpg" class="r-stretch quarto-figure-center"><p class="caption"><em>Raja et al (2022, Global Ecology and Biogeography)</em></p></section>
-<section id="predicting-the-extinction-risk-of-corals-worldwide" class="slide level2">
-<h2>Predicting the extinction risk of corals worldwide</h2>
-
-<img data-src="images/iucn_2.jpg" class="r-stretch quarto-figure-center"><p class="caption"><em>Raja et al (2022, Global Ecology and Biogeography)</em></p></section>
-<section id="our-machine-learning-framework-for-today" class="slide level2">
-<h2>Our machine learning framework for today</h2>
-
-<img data-src="images/h2o.png" class="r-stretch"></section>
-<section id="section-1" class="slide level2">
-<h2></h2>
-</section>
-<section id="use-h2o-directly-from-r" class="slide level2">
-<h2>Use H<sub>2</sub>O directly from R</h2>
-<p>Copy and paste these commands into R one line at a time:</p>
+<section id="choosing-a-model" class="slide level2">
+<h2>Choosing a model</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="co"># The following two commands remove any previously installed H2O packages for R.</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="cf">if</span> (<span class="st">"package:h2o"</span> <span class="sc">%in%</span> <span class="fu">search</span>()) { <span class="fu">detach</span>(<span class="st">"package:h2o"</span>, <span class="at">unload=</span><span class="cn">TRUE</span>) }</span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="cf">if</span> (<span class="st">"h2o"</span> <span class="sc">%in%</span> <span class="fu">rownames</span>(<span class="fu">installed.packages</span>())) { <span class="fu">remove.packages</span>(<span class="st">"h2o"</span>) }</span>
+
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">library</span>(h2o)</span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="fu">h2o.init</span>(<span class="at">nthreads =</span> <span class="dv">1</span>, <span class="co">#Number of threads/cores </span></span>
+<span id="cb1-4"><a href="#cb1-4"></a>         <span class="at">max_mem_size =</span> <span class="st">"1G"</span>)  <span class="co">#max mem size is the maximum memory to allocate to H2O</span></span>
 <span id="cb1-5"><a href="#cb1-5"></a></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="co"># Next, we download packages that H2O depends on.</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a>pkgs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"RCurl"</span>,<span class="st">"jsonlite"</span>)</span>
-<span id="cb1-8"><a href="#cb1-8"></a><span class="cf">for</span> (pkg <span class="cf">in</span> pkgs) {</span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="cf">if</span> (<span class="sc">!</span> (pkg <span class="sc">%in%</span> <span class="fu">rownames</span>(<span class="fu">installed.packages</span>()))) { <span class="fu">install.packages</span>(pkg) }</span>
-<span id="cb1-10"><a href="#cb1-10"></a>}</span>
+<span id="cb1-6"><a href="#cb1-6"></a></span>
+<span id="cb1-7"><a href="#cb1-7"></a>abalone <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"abalone.csv"</span>)</span>
+<span id="cb1-8"><a href="#cb1-8"></a>abalone<span class="sc">$</span>sex <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(abalone<span class="sc">$</span>sex) <span class="co"># NEW LINE ADDED</span></span>
+<span id="cb1-9"><a href="#cb1-9"></a></span>
+<span id="cb1-10"><a href="#cb1-10"></a>abalone_h2o <span class="ot">&lt;-</span> <span class="fu">as.h2o</span>(abalone) <span class="co"># convert to h2o data</span></span>
 <span id="cb1-11"><a href="#cb1-11"></a></span>
-<span id="cb1-12"><a href="#cb1-12"></a><span class="co"># Now we download, install and initialize the H2O package for R.</span></span>
-<span id="cb1-13"><a href="#cb1-13"></a><span class="fu">install.packages</span>(<span class="st">"h2o"</span>, <span class="at">type=</span><span class="st">"source"</span>, <span class="at">repos=</span><span class="st">"https://h2o-release.s3.amazonaws.com/h2o/rel-zumbo/4/R"</span>)</span>
-<span id="cb1-14"><a href="#cb1-14"></a></span>
-<span id="cb1-15"><a href="#cb1-15"></a><span class="co"># Finally, let's load H2O and start up an H2O cluster</span></span>
-<span id="cb1-16"><a href="#cb1-16"></a><span class="fu">library</span>(h2o)</span>
-<span id="cb1-17"><a href="#cb1-17"></a></span>
-<span id="cb1-18"><a href="#cb1-18"></a><span class="co"># </span><span class="al">NOTE</span><span class="co">: You may get an error while running the following code asking you to install Java. Follow the link provided.</span></span>
-<span id="cb1-19"><a href="#cb1-19"></a></span>
-<span id="cb1-20"><a href="#cb1-20"></a><span class="fu">h2o.init</span>(<span class="at">nthreads =</span> <span class="dv">1</span>, <span class="co">#Number of threads/cores </span></span>
-<span id="cb1-21"><a href="#cb1-21"></a>         <span class="at">max_mem_size =</span> <span class="st">"1G"</span>)  <span class="co">#max mem size is the maximum memory to allocate to H2O</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-12"><a href="#cb1-12"></a>ring_split <span class="ot">&lt;-</span> <span class="fu">h2o.splitFrame</span>(abalone_h2o, <span class="at">ratio=</span><span class="fl">0.7</span>)</span>
+<span id="cb1-13"><a href="#cb1-13"></a></span>
+<span id="cb1-14"><a href="#cb1-14"></a>ring_train <span class="ot">&lt;-</span> ring_split[[<span class="dv">1</span>]]</span>
+<span id="cb1-15"><a href="#cb1-15"></a>ring_test <span class="ot">&lt;-</span> ring_split[[<span class="dv">2</span>]]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="choosing-a-model-1" class="slide level2">
+<h2>Choosing a model</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a></span>
+<span id="cb2-2"><a href="#cb2-2"></a>?<span class="fu">h2o.glm</span>()</span>
+<span id="cb2-3"><a href="#cb2-3"></a></span>
+<span id="cb2-4"><a href="#cb2-4"></a>predictors <span class="ot">&lt;-</span> <span class="fu">colnames</span>(abalone)[<span class="dv">1</span><span class="sc">:</span><span class="dv">8</span>]</span>
+<span id="cb2-5"><a href="#cb2-5"></a>target <span class="ot">&lt;-</span> <span class="st">"rings"</span></span>
+<span id="cb2-6"><a href="#cb2-6"></a></span>
+<span id="cb2-7"><a href="#cb2-7"></a>mod_glm1 <span class="ot">&lt;-</span> <span class="fu">h2o.glm</span>(<span class="at">x =</span> predictors, <span class="at">y=</span> target, </span>
+<span id="cb2-8"><a href="#cb2-8"></a>                   <span class="at">training_frame=</span>ring_train)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="steps-for-applying-machine-learning-1" class="slide level2">
+<h2>Steps for applying machine learning <img data-src="hexes/h2o.png" class="absolute" style="top: -20px; right: 0px; width: 64px; height: 74.24px; "></h2>
+<ul>
+<li>Choose a model</li>
+<li>Specify <u>additional parameters</u> if any.</li>
+<li>That’s it for now!</li>
+</ul>
+</section>
+<section id="specifying-parameters" class="slide level2">
+<h2>Specifying parameters</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>mod_glm2 <span class="ot">&lt;-</span> <span class="fu">h2o.glm</span>(<span class="at">x =</span> predictors, <span class="at">y=</span> target, </span>
+<span id="cb3-2"><a href="#cb3-2"></a>                   <span class="at">training_frame=</span>ring_train,</span>
+<span id="cb3-3"><a href="#cb3-3"></a>                   <span class="at">family=</span><span class="st">"gaussian"</span>,</span>
+<span id="cb3-4"><a href="#cb3-4"></a>                   <span class="at">lambda =</span> <span class="dv">0</span>, <span class="at">compute_p_values =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="footer:::">
+<p>How to choose the optimal lambda value: <a href="https://medium.com/@shiny_jay/ml-how-to-choose-lambda-9d0000c1491c">click here to read</a>.</p>
+</div>
+</section>
+<section id="your-turn-1" class="slide level2">
+<h2>Your turn</h2>
+<ul>
+<li>Choose a model</li>
+<li>Specify <u>additional parameters</u> if any.</li>
+<li>That’s it for now!</li>
+</ul>
+<p><img data-src="images/parsnip-flagger.jpg" class="absolute" style="top: 0px; right: 0px; width: 150px; height: 150px; "></p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="train-your-own" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">20</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
+</div>
+<div class="r-fit-text">
+<p>All available models are listed at <a href="https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science.html" class="uri">https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science.html</a></p>
 </div>
 
 <div class="footer footer-default">
 
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
