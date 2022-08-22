@@ -13,17 +13,16 @@ If you have Jekyll installed on your computer, you can also render and check out
 
 *You are expected to edit the module-specific pages*, which are in the `_posts` directory. These pages have a front matter (before the dashes), don't worry about those - except for the title, which you are more than welcome to change.
 
-| page link                                                                                                    | file                                 | correspondent(s) |
-|--------------------------------------------------------------------------------------------------------------|--------------------------------------|------------------|
-| [https://fau-paleo.github.io/apw_2022/toolset/](https://fau-paleo.github.io/apw_2022/toolset/)               | 2022-08-01-toolset.md                | Adam/Nuss        |
-| [https://fau-paleo.github.io/apw_2022/paleodiversity/](https://fau-paleo.github.io/apw_2022/paleodiversity/) | 2022-08-02-paleostats.md             | Emma/Wolfgang    |
-| [https://fau-paleo.github.io/apw_2022/morphometrics/](https://fau-paleo.github.io/apw_2022/morphometrics/)   | 2022-08-03-morphometrics.md          | Manuel           |
-| [https://fau-paleo.github.io/apw_2022/gis/](https://fau-paleo.github.io/apw_2022/gis/)                       | 2022-08-04-gis.md                    | Adam             |
-| [https://fau-paleo.github.io/apw_2022/globaldiv/](https://fau-paleo.github.io/apw_2022/globaldiv/)           | 2022-08-05-global-diversity.md       | Adam/Emma/Carl   |
-| [https://fau-paleo.github.io/apw_2022/cmr_bio_abio/](https://fau-paleo.github.io/apw_2022/cmr_bio_abio/)     | 2022-08-06-div-cmr-abiotic-biotic.md | Lee Hsiang       |
-| [https://fau-paleo.github.io/apw_2022/phylogenetics/](https://fau-paleo.github.io/apw_2022/phylogenetics/)   | 2022-08-07-phylogenetics.md          | Rachel/Laura     |
-| [https://fau-paleo.github.io/apw_2022/niches/](https://fau-paleo.github.io/apw_2022/niches/)                 | 2022-08-08-niches.md                 | Erin             |
-
+| file                                 | correspondent(s) |
+|--------------------------------------|------------------|
+| 2022-08-01-toolset.md                | Adam/Nuss        |
+| 2022-08-02-paleodiversity.md         | Wolfgang/Emma    |
+| 2022-08-03-morphometrics.md          | Manuel           |
+| 2022-08-04-gis.md                    | Adam             |
+| 2022-08-05-global-diversity.md       | Adam/Emma/Carl   |
+| 2022-08-06-div-cmr-abiotic-biotic.md | Lee Hsiang       |
+| 2022-08-07-phylogenetics.md          | Rachel/Laura     |
+| 2022-08-08-niches.md                 | Erin             |
 
 - For novice git users: to avoid chaos please only edit the page that you are responsible for and use the GitHub interface. If all of this feels overwhelming, don't worry. I (Adam) is more than happy to put material on for you if you'd like!
 

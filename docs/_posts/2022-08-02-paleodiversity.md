@@ -1,8 +1,9 @@
 ---
-title: "Introduction to Diversity Analysis with R"
+title: "Module 2: Paleodiversity Analyses in R"
 layout: "post" 
 permalink: "paleodiversity/"
 ---
+
 
 ## Module 2: Paleodiversity analyses
 
@@ -40,16 +41,20 @@ permalink: "paleodiversity/"
 
 
 
-## Day 4: Exploring fossil occurrence data and sampling - Wolfgang Kiessling
+## Day 4: Exploring fossil occurrence data and sampling - Emma Dunne
+
 
 #### Purpose
 - Introduction to the [Paleobiology Database](https://paleobiodb.org/#/)
 - Learn how to download and clean PBDB occurrence data
 - Plot and explore occurrence data
 
+
 ### R code
 - [example.R]({{site.baseurl}}/data/2_paleodiversity/Alpha_div.R)
 
+
+### Reading list
 
 
 
