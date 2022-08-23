@@ -4,7 +4,16 @@ layout: "post"
 permalink: "morphometrics/"
 ---
 
-# Test Git configuration
+# Presentations
+
+Below you find links to all presentations on the geometric morphometrics session
+
+* [Introduction slides]({{site.baseurl}}/slides/3_morphometrics/Lecture1_Introduction.pdf)
+* [Geometric morphometric data structure]({{site.baseurl}}/slides/3_morphometrics/Lecture2_DataTypes.pdf)
+* [Extraction of geometric morphometric data from images]({{site.baseurl}}/slides/3_morphometrics/Lecture3_DataGathering.pdf)
+* [Outline analyses]({{site.baseurl}}/slides/3_morphometrics/Lecture4_OutlineAnalyses.pdf)
+* [Landmark analyses]({{site.baseurl}}/slides/3_morphometrics/Lecture5_LandmarkAnalyses.pdf)
+* [Error analyses]({{site.baseurl}}/slides/3_morphometrics/Lecture6_ErrorAnalysis.pdf)
 
 Link to [an external website](https://git-scm.com/).
 
