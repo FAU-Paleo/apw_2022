@@ -5,18 +5,15 @@ permalink: "paleodiversity/"
 ---
 
 
-## Module 2: Paleodiversity analyses
+| When   | What                                                            |
+|--------|-----------------------------------------------------------------|
+| Aug 24 | *Day 3*: Community diversity                                    |
+| Aug 25 | *Day 4*: Exploring fossil occurrence data and sampling          |
+|--------|-----------------------------------------------------------------|
 
-#### Sections
+- - -
 
-| When   | What                                                          |
-|--------|---------------------------------------------------------------|
-| Aug 24 | Day 3: Community diversity                                    |
-| Aug 25 | Day 4: Exploring fossil occurrence data and sampling          |
-|--------|---------------------------------------------------------------|
-
-
-## Day 3: Community diversity - Wolfgang Kiessling
+## Day 3: Community diversity
 
 #### Purpose
 - 
@@ -35,13 +32,13 @@ permalink: "paleodiversity/"
 
 
 ### Reading list
-- [Cooper and Hsing, 2017 - Reproducible code]({{site.baseurl}}/data/1_toolset/Papers/Cooper and Hsing, 2017 - Guide to reproducible code.pdf)
-- [Wilkinson et al. 2016 - FAIR principles]({{site.baseurl}}/data/1_toolset/Papers/Wilkinson et al. - 2016 - The FAIR Guiding Principles.pdf)
+[Click to download]({{site.baseurl}}/data/2_paleodiversity/ReadingList_Kiessling.docx)
 
 
 
+- - -
 
-## Day 4: Exploring fossil occurrence data and sampling - Emma Dunne
+## Day 4: Exploring fossil occurrence data and sampling
 
 
 #### Purpose
