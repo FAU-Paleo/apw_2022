@@ -15,8 +15,15 @@ Below you find links to all presentations on the geometric morphometrics session
 * [Landmark analyses]({{site.baseurl}}/slides/3_morphometrics/Lecture5_LandmarkAnalyses.pdf)
 * [Error analyses]({{site.baseurl}}/slides/3_morphometrics/Lecture6_ErrorAnalysis.pdf)
 
-Link to [an external website](https://git-scm.com/).
+# Data and images
 
-You can download any material like this: [file_name.txt]({{site.baseurl}}/data/3_morphometrics/metadata.txt)
+Below you find links to all data and images used during the geometric morphometrics session
+
+## Datasets
+
+## Images
+
+* [Black-and-white threshold images of belemnite hooks](https://drive.google.com/drive/folders/1WkWmZoLQskLs82K334xG4jB5An3EwHEx?usp=sharing)
+* [Images of Mustelidae skulls](https://drive.google.com/drive/folders/1rcUaaZDU3oICuPG52D545wOtBAUhRVav?usp=sharing)
 
 ![img](https://www.paleosynthesis.nat.fau.de/wp-content/uploads/2019/09/Icon-SummerSchool-150x150.png)
