@@ -21,6 +21,10 @@ Below you find links to all data and images used during the geometric morphometr
 
 ## Datasets
 
+* [Raw outlines of belemnite arm hooks]({{site.baseurl}}/data/3_morphometrics/Belemnite_RawOutline.nts)
+* [Smoothed outlines of belemnite arm hooks]({{site.baseurl}}/data/3_morphometrics/Belemnite_SmoothedOutline.nts)
+* [Planktonic foraminifer landmarks]({{site.baseurl}}/data/3_morphometrics/SacculiferLandmarks.tps)
+
 ## Images
 
 * [Black-and-white threshold images of belemnite hooks](https://drive.google.com/drive/folders/1WkWmZoLQskLs82K334xG4jB5An3EwHEx?usp=sharing)
