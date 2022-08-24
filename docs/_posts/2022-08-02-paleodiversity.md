@@ -29,8 +29,9 @@ permalink: "paleodiversity/"
 
 
 ### Slideshow
-[Click to download]({{site.baseurl}}/docs/slides/2_paleodiversity/CommunityDiversity.pptx)
+[CommunityDiversity]({{site.baseurl}}/slides/2_paleodiversity/CommunityDiversity.pptx)
 
+-- [This one: CommunityDiversity]({{site.baseurl}}/data/2_paleodiversity/CommunityDiversity.pptx)
 
 ### R code
 - [Alpha_div.R]({{site.baseurl}}/data/2_paleodiversity/Alpha_div.R)
