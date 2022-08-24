@@ -4,19 +4,29 @@ layout: "post"
 permalink: "paleodiversity/"
 ---
 
+<br>
 
-| When   | What                                                            |
-|--------|-----------------------------------------------------------------|
-| Aug 24 | *Day 3*: Community diversity                                    |
-| Aug 25 | *Day 4*: Exploring fossil occurrence data and sampling          |
-|--------|-----------------------------------------------------------------|
+| When   | What                                                                  |
+|--------|-----------------------------------------------------------------------|
+| Aug 24 | **Day 3**: Community diversity                                        |
+| Aug 25 | **Day 4**: Exploring fossil occurrence data and fossil record biases  |
+|--------|-----------------------------------------------------------------------|
+
+<br>
 
 - - -
 
+<br>
+
 ## Day 3: Community diversity
 
+<br>
+
 #### Purpose
-- 
+- Introduction to paleodiversity analyses
+- Statistics and diversity metrics
+- Mini-assignments in R
+
 
 ### Slideshow
 [Click to download]({{site.baseurl}}/docs/slides/2_paleodiversity/CommunityDiversity.pptx)
@@ -37,17 +47,37 @@ permalink: "paleodiversity/"
 ### Reading list
 [Click to download]({{site.baseurl}}/data/2_paleodiversity/ReadingList_Kiessling.docx)
 
-
+<br>
 
 - - -
 
-## Day 4: Exploring fossil occurrence data and sampling
+<br>
+
+## Day 4: Exploring fossil occurrence data and fossil record biases
+
+<br>
+
+#### Schedule
+
+| Start | End   | Topic                                  |
+|-------|-------|----------------------------------------|
+| 10:00 | 10:30 | Part 1: Analytical paleobiology        |
+| 10:30 | 10:45 | COFFEE                                 |
+| 10:45 | 12:00 | Part 2: The Paleobiology Database      |
+| 12:00 | 13:30 | LUNCH                                  |
+| 13:30 | 14:00 | Part 3: Fossil record biases           |
+| 14:00 | 15:00 | Part 4.1: Data exploration in R        |
+| 15:00 | 15:15 | COFFEE                                 |
+| 15:15 | 16:30 | Part 4.2: Data exploration in R cont.  |
+| 16:30 | 17:00 | Questions, discussions, etc.           |
 
 
-#### Purpose
-- Introduction to the [Paleobiology Database](https://paleobiodb.org/#/)
-- Learn how to download and clean PBDB occurrence data
-- Plot and explore occurrence data
+#### Main topics:
+- General introduction to the field of analytical paleobiology
+- Exploration of the [Paleobiology Database](https://paleobiodb.org/#/)
+- Accessing and cleaning PBDB occurrence data
+- Overview of fossil record biases 
+- Exploring and plotting occurrence data in R
 
 
 ### R code
@@ -56,8 +86,5 @@ permalink: "paleodiversity/"
 
 ### Reading list
 
-
-
-![img](https://www.paleosynthesis.nat.fau.de/wp-content/uploads/2019/09/Icon-SummerSchool-150x150.png)
 
 
