@@ -37,3 +37,9 @@ Below you find links to all data and images used during the geometric morphometr
 * [OutlineAnalysis_Functions.r]({{site.baseurl}}/data/3_morphometrics/OutlineAnalysis_Functions.r)
 * [GeometricMorphometrics_Functions.r]({{site.baseurl}}/data/3_morphometrics/GeometricMorphometrics_Functions.r)
 
+### Surveys
+
+I installed two surveys and would be very happy for you to fill them in. Your responses will greatly help me.
+
+* [Survey with your thoughs on my utility functions for refinement in an upcoming R-package](https://forms.gle/oW7k4GzQgnrwdruu7)
+* [Final survey with your opinions about the geometric morphometrics session](https://forms.gle/meCA87J6PPVSxjAcA)
