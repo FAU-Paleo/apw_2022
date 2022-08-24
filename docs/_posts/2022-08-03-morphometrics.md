@@ -15,6 +15,19 @@ Below, you find links to all presentations on the geometric morphometrics sessio
 * [Landmark analyses]({{site.baseurl}}/slides/3_morphometrics/Lecture5_LandmarkAnalyses.pdf)
 * [Error analyses]({{site.baseurl}}/slides/3_morphometrics/Lecture6_ErrorAnalysis.pdf)
 
+### Exercises
+
+Below, you find links to all exercise sheets for the geometric morphometrics session.
+
+* [Exercise 0: Setup]({{site.baseurl}}/slides/3_morphometrics/ExerciseSheet0_Setup.pdf)
+* [Exercise 1: Data extraction]({{site.baseurl}}/slides/3_morphometrics/ExerciseSheet1_DataExtraction.pdf)
+* [Exercise 2: Outline data preparation]({{site.baseurl}}/slides/3_morphometrics/ExerciseSheet2_OutlineDataPreparation.pdf)
+* [Exercise 3: Outline analyses]({{site.baseurl}}/slides/3_morphometrics/ExerciseSheet3_OutlineAnalysis.pdf)
+* [Exercise 4: Landmark data preparation]({{site.baseurl}}/slides/3_morphometrics/ExerciseSheet4_LandmarkDataPreparation.pdf)
+* Exercise 5: Landmark data analysis
+* [Exercise 6: Error analyses]({{site.baseurl}}/slides/3_morphometrics/ExerciseSheet6_ErrorAnalyses.pdf)
+* [Exercise 7: Open session]({{site.baseurl}}/slides/3_morphometrics/ExerciseSheet7_OpenSession.pdf)
+
 ### Links to R-packages
 
 Below, you find links to the pages of R-packages we will be using, containing reference manuals as vignettes.
