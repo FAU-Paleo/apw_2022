@@ -15,7 +15,7 @@ Below you find links to all presentations on the geometric morphometrics session
 * [Landmark analyses]({{site.baseurl}}/slides/3_morphometrics/Lecture5_LandmarkAnalyses.pdf)
 * [Error analyses]({{site.baseurl}}/slides/3_morphometrics/Lecture6_ErrorAnalysis.pdf)
 
-### Data and images
+### Data, images, and source codes
 
 Below you find links to all data and images used during the geometric morphometrics session
 
@@ -30,4 +30,16 @@ Below you find links to all data and images used during the geometric morphometr
 * [Black-and-white threshold images of belemnite hooks](https://drive.google.com/drive/folders/1WkWmZoLQskLs82K334xG4jB5An3EwHEx?usp=sharing)
 * [Images of Mustelidae skulls](https://drive.google.com/drive/folders/1rcUaaZDU3oICuPG52D545wOtBAUhRVav?usp=sharing)
 
+# R source codes
 
+* [MorphometricExtraction_Functions.r]({{site.baseurl}}/data/3_morphometrics/MorphometricExtraction_Functions.r)
+* [MorphoFiles_Function.r]({{site.baseurl}}/data/3_morphometrics/MorphoFiles_Function.r)
+* [OutlineAnalysis_Functions.r]({{site.baseurl}}/data/3_morphometrics/OutlineAnalysis_Functions.r)
+* [GeometricMorphometrics_Functions.r]({{site.baseurl}}/data/3_morphometrics/GeometricMorphometrics_Functions.r)
+
+### Surveys
+
+I installed two surveys and would be very happy for you to fill them in. Your responses will greatly help me.
+
+* [Survey with your thoughs on my utility functions for refinement in an upcoming R-package](https://forms.gle/oW7k4GzQgnrwdruu7)
+* [Final survey with your opinions about the geometric morphometrics session](https://forms.gle/meCA87J6PPVSxjAcA)
