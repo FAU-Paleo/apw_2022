@@ -4,7 +4,8 @@ layout: "post"
 permalink: "paleodiversity/"
 ---
 
-<br>
+Welcome to Module 2: Paleodiversity Analyses in R! Across these two days, we'll focus on how to analyse biodiversity in deep-time through theoretical introductions, hands-on exercises, and mini-assigments in R. 
+
 
 | When   | What                                                                  |
 |--------|-----------------------------------------------------------------------|
@@ -19,18 +20,17 @@ permalink: "paleodiversity/"
 <br>
 
 ## Day 3: Community diversity
+with Wolfgang Kiessling
 
 <br>
 
 #### Purpose
-- Introduction to paleodiversity analyses
+- Introduction to paleodiversity analyses (theory)
 - Statistics and diversity metrics
 - Mini-assignments in R
 
 
 ### Slideshow
-[CommunityDiversity]({{site.baseurl}}/slides/2_paleodiversity/CommunityDiversity.pptx)
-
 -- [This one: CommunityDiversity]({{site.baseurl}}/data/2_paleodiversity/CommunityDiversity.pptx)
 
 ### R code
@@ -55,6 +55,7 @@ permalink: "paleodiversity/"
 <br>
 
 ## Day 4: Exploring fossil occurrence data and fossil record biases
+with Emma Dunne
 
 <br>
 
@@ -62,7 +63,7 @@ permalink: "paleodiversity/"
 
 | Start | End   | Topic                                  |
 |-------|-------|----------------------------------------|
-| 10:00 | 10:30 | Part 1: Analytical paleobiology        |
+| 10:00 | 10:30 | Part 1: Intro to paleodiversity        |
 | 10:30 | 10:45 | COFFEE                                 |
 | 10:45 | 12:00 | Part 2: The Paleobiology Database      |
 | 12:00 | 13:30 | LUNCH                                  |
@@ -74,7 +75,7 @@ permalink: "paleodiversity/"
 
 
 #### Main topics:
-- General introduction to the field of analytical paleobiology
+- General introduction to the field of analytical paleobiology (its past, present, and future)
 - Exploration of the [Paleobiology Database](https://paleobiodb.org/#/)
 - Accessing and cleaning PBDB occurrence data
 - Overview of fossil record biases 
