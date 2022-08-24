@@ -31,7 +31,7 @@ with Wolfgang Kiessling
 
 
 ### Slideshow
--- [This one: CommunityDiversity]({{site.baseurl}}/data/2_paleodiversity/CommunityDiversity.pptx)
+- [Community diversity]({{site.baseurl}}/data/2_paleodiversity/CommunityDiversity.pptx)
 
 ### R code
 - [Alpha_div.R]({{site.baseurl}}/data/2_paleodiversity/Alpha_div.R)
@@ -67,10 +67,9 @@ with Emma Dunne
 | 10:30 | 10:45 | COFFEE                                 |
 | 10:45 | 12:00 | Part 2: The Paleobiology Database      |
 | 12:00 | 13:30 | LUNCH                                  |
-| 13:30 | 14:00 | Part 3: Fossil record biases           |
-| 14:00 | 15:00 | Part 4.1: Data exploration in R        |
+| 13:30 | 15:00 | Part 3: Fossil record biases           |
 | 15:00 | 15:15 | COFFEE                                 |
-| 15:15 | 16:30 | Part 4.2: Data exploration in R cont.  |
+| 15:15 | 16:30 | Part 3: Fossil record biases cont.     |
 | 16:30 | 17:00 | Questions, discussions, etc.           |
 
 
@@ -79,14 +78,23 @@ with Emma Dunne
 - Exploration of the [Paleobiology Database](https://paleobiodb.org/#/)
 - Accessing and cleaning PBDB occurrence data
 - Overview of fossil record biases 
-- Exploring and plotting occurrence data in R
+- Exploring and plotting occurrence data and sampling patterns in R
 
 
-### R code
-- [example.R]({{site.baseurl}}/data/2_paleodiversity/Alpha_div.R)
+### Part 1
+- [Slideshow 1: Introduction]({{site.baseurl}}/slides/2_paleodiversity/01_introduction.pdf)
 
 
-### Reading list
+### Part 2
+- [Slideshow 2: Paleobiology Database]({{site.baseurl}}/slides/2_paleodiversity/02_PBDB.pdf)
+- [Iyuku raathi paper]({{site.baseurl}}/data/2_paleodiversity/Emma/Iyuku_raathi.pdf)
+- [R code: 01 PBDB data download and preparation]({{site.baseurl}}/data/2_paleodiversity/Emma/01_data_prep.R)
 
+
+### Part 3
+- [Slideshow 2: Paleobiology Database]({{site.baseurl}}/slides/2_paleodiversity/03_sampling.pdf)
+- [R code: 02 Exploring fossil record biases]({{site.baseurl}}/data/2_paleodiversity/Emma/02_sampling.R)
+- [R code: 03 Simple stats for sampling]({{site.baseurl}}/data/2_paleodiversity/Emma/03_stats.R)
+- [R code: 04 Modern and paleo- maps]({{site.baseurl}}/data/2_paleodiversity/Emma/04_maps.R)
 
 
