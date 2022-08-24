@@ -6,7 +6,7 @@ permalink: "morphometrics/"
 
 ### Presentations
 
-Below you find links to all presentations on the geometric morphometrics session
+Below, you find links to all presentations on the geometric morphometrics session.
 
 * [Introduction slides]({{site.baseurl}}/slides/3_morphometrics/Lecture1_Introduction.pdf)
 * [Geometric morphometric data structure]({{site.baseurl}}/slides/3_morphometrics/Lecture2_DataTypes.pdf)
@@ -15,9 +15,19 @@ Below you find links to all presentations on the geometric morphometrics session
 * [Landmark analyses]({{site.baseurl}}/slides/3_morphometrics/Lecture5_LandmarkAnalyses.pdf)
 * [Error analyses]({{site.baseurl}}/slides/3_morphometrics/Lecture6_ErrorAnalysis.pdf)
 
+### Links to R-packages
+
+Below, you find links to the pages of R-packages we will be using, containing reference manuals as vignettes.
+
+* [geomorph](https://cran.r-project.org/web/packages/geomorph/index.html)
+* [hangler](https://github.com/klapaukh/hangler)
+* [Momocs](https://cran.r-project.org/web/packages/Momocs/index.html)
+* [Morpho](https://cran.r-project.org/web/packages/Morpho/index.html)
+* [shapes](https://cran.r-project.org/web/packages/shapes/index.html)
+
 ### Data, images, and source codes
 
-Below you find links to all data and images used during the geometric morphometrics session
+Below, you find links to all data and images used during the geometric morphometrics session.
 
 # Datasets
 
@@ -43,7 +53,7 @@ Below you find links to all data and images used during the geometric morphometr
 
 ### Surveys
 
-I installed two surveys and would be very happy for you to fill them in. Your responses will greatly help me.
+I set up two surveys and would be very happy for you to fill them in. Your responses will greatly help me.
 
 * [Survey with your thoughs on my utility functions for refinement in an upcoming R-package](https://forms.gle/oW7k4GzQgnrwdruu7)
 * [Final survey with your opinions about the geometric morphometrics session](https://forms.gle/meCA87J6PPVSxjAcA)
