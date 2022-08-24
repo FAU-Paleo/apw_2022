@@ -19,7 +19,7 @@ permalink: "paleodiversity/"
 - 
 
 ### Slideshow
-[Click to download]({{site.baseurl}}/docs/slides/2_paleodiversity/CommunityDiversity.pptx)
+[CommunityDiversity]({{site.baseurl}}/docs/slides/2_paleodiversity/CommunityDiversity.pptx)
 
 
 ### R code
