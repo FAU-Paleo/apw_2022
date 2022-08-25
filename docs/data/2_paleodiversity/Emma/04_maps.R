@@ -52,7 +52,7 @@ ggsave(plot = modern_map,
 
 
 
-# Paleocoordinates --------------------------------------------------------
+# Palaeogeographic map ---------------------------------------------------
 
 ## In this section, we're going to plot the PBDB collections onto palaeogeographic maps
 ## Side note: You should always cite the R packages you use!
@@ -65,68 +65,58 @@ locality_info_paleo <- occ_data %>%
   na.omit()
 
 
+
+# Paleocoordinates --------------------------------------------------------
+
 ## To accurately reconstruct paleomaps, we should make sure our paleocoordinates from our
 ## occurrence data match the same scheme as the paleogeographies we want to use on our map 
 ## This can be a little tedious to begin with, but once you have your time intervals 
 ## standardised, the reconstruct() function in rgplates can reconstruct paleocordinates 
-## from the modern coordinates supplied by the PBDB. We won't do this here in the interest
-## of time, but for more info, see here:
-## https://cran.r-project.org/web/packages/rgplates/index.html
+## from the modern coordinates supplied by the PBDB. 
 
-# Palaeogeographic maps ---------------------------------------------------
+## Let's re-do our Late Triassic - Early Jurassic maps, but with reconstructed palaeocoordinates
 
-## We will create a map for every interval. For that, we need to know which collections
-## will be plotted on which map (which interval they belong to. )
-
-## assign an interval to every collection 
-## an empty column
+## First, assign an interval to every collection 
+## Make an empty column:
 locality_info_paleo$interval <- NA
 
 for(i in 1:nrow(intervals)){
   ## Filter the occurrence data to contain localities from this interval only:
-	# which collectionscorrespond to this interval
+	
+  # which collections correspond to this interval
 	intervalIndex <- which(
 		locality_info_paleo$max_ma <= intervals$max_ma[i] & 
-		locality_info_paleo$min_ma >= intervals$min_ma[i]
+		  locality_info_paleo$min_ma >= intervals$min_ma[i]
 	)
-
 	# which interval does this belong to 
 	locality_info_paleo$interval[intervalIndex] <- intervals$interval_name[i]
 }
 
-# There are gaps here due to the mismatch of the timescales - We have to rely on the primary input for binning!
+## There are gaps here due to the mismatch of the timescales
+## We have to rely on the primary input for binning!
 locality_info_paleo$interval[c(11,76:80, 391, 408, 409,414, 417 )] <- "Hettangian"
 locality_info_paleo$interval[c(59)] <- "Carnian"
 locality_info_paleo$interval[c(62)] <- "Norian"
 locality_info_paleo$interval[c(65, 123, 124,125,349:358, 367 , 369, 371, 395, 408, 431, 450:452)] <- "Toarcian"
 
 
-
-## Now on to our dataset:
-## Begin by setting a theme (I like to keep things pretty minimal):
+## Set ggplot theme
 palaeomap_theme <- theme_minimal() + theme(axis.title.x=element_blank(), axis.text.x=element_blank(),
                                            axis.title.y=element_blank(), axis.text.y=element_blank(),
                                            axis.ticks.x=element_blank(), axis.ticks.y=element_blank(),
                                            legend.title=element_blank())
+## Create an empty list to populate through the loop below:
+palaeomap_list2 <- list()
 
-## Now let's plot the each of the maps!
-# First, create an empty list to populate through the loop below:
-palaeomap_list <- list()
-
-## Now, let's loop through each interval and plot a map for it
-## This might take a minute or two to run as its doing a lot of work!
 for(i in 1:nrow(intervals)){
   
-  ## First, find the correct palaeomap based on the interval midpoint and reconstruct the plates:
-  this_map <- reconstruct("plates", age = round(intervals$mid_ma[i])) 
-
+  ## Find the correct palaeomap based on the interval midpoint and reconstruct the plates:
+  this_map <- reconstruct("plates", age = round(intervals$mid_ma[i]))
   ## Filter the occurrence data to contain localities from this interval only:
   these_occs <- locality_info_paleo[which(locality_info_paleo$interval == intervals$interval_name[i]), ]
-
   ## coordinates reconstruction
   new_coords <- reconstruct(these_occs[,c("lng", "lat")], age= round(intervals$mid_ma[i]))
-  colnames(new_coords) <- c("plng", "plat")
-
+  colnames(new_coords) <- c("plng", "plat") # rename columns
   ## column names: paleolong paleolat
   these_occs<- cbind(these_occs, new_coords)
   
@@ -152,16 +142,16 @@ for(i in 1:nrow(intervals)){
 
 ## To make a panel plot containing all the map, we'll need to arrange them first:
 ## Here, there are 7 intervals, so 7 map plots:
-palaeomaps_panel <- ggarrange(palaeomap_list[[1]], palaeomap_list[[2]],
-                              palaeomap_list[[3]], palaeomap_list[[4]],
-                              palaeomap_list[[5]], palaeomap_list[[6]],
-                              palaeomap_list[[7]],
-                              ncol = 2, nrow = 4) # no. of rows and columns
+palaeomaps_panel2 <- ggarrange(palaeomap_list2[[1]], palaeomap_list2[[2]],
+                               palaeomap_list2[[3]], palaeomap_list2[[4]],
+                               palaeomap_list2[[5]], palaeomap_list2[[6]],
+                               palaeomap_list2[[7]],
+                               ncol = 2, nrow = 4) # no. of rows and columns
 
-palaeomaps_panel # Call the panel to the plot window to have a peep
+palaeomaps_panel2 # Call the panel to the plot window to have a peep
 
 ## And finally, save as a .pdf
-ggsave(plot = palaeomaps_panel,
+ggsave(plot = palaeomaps_panel2,
        width = 12, height = 10, dpi = 600, 
-       filename = "./plots/Palaeomaps_panel.pdf", useDingbats=FALSE)
+       filename = "./plots/Palaeomaps_panel2.pdf", useDingbats=FALSE)
 

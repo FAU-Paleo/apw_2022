@@ -92,9 +92,9 @@ with Emma Dunne
 
 
 ### Part 3
-- [Slideshow 2: Paleobiology Database]({{site.baseurl}}/slides/2_paleodiversity/03_sampling.pdf)
+- [Slideshow 3: Fossil record biases]({{site.baseurl}}/slides/2_paleodiversity/03_sampling.pdf)
 - [R code: 02 Exploring fossil record biases]({{site.baseurl}}/data/2_paleodiversity/Emma/02_sampling.R)
 - [R code: 03 Simple stats for sampling]({{site.baseurl}}/data/2_paleodiversity/Emma/03_stats.R)
-- [R code: 04 Modern and paleo- maps]({{site.baseurl}}/data/2_paleodiversity/Emma/04_maps.R)
+- [R code: 04 Modern and paleo- maps]({{site.baseurl}}/data/2_paleodiversity/Emma/04_maps2.R)
 
 
