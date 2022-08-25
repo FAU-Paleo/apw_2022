@@ -60,7 +60,7 @@ citation("rgplates")
 
 ## First, let's pear down or occurrence data to only keep the info we need for making the map
 locality_info_paleo <- occ_data %>% 
-  select(collection_name, paleolat, paleolng, early_interval, late_interval, max_ma, min_ma) %>% 
+  select(collection_name, lat, lng, early_interval, late_interval, max_ma, min_ma) %>% 
   distinct(collection_name, .keep_all = TRUE) %>% 
   na.omit()
 
@@ -73,19 +73,32 @@ locality_info_paleo <- occ_data %>%
 ## of time, but for more info, see here:
 ## https://cran.r-project.org/web/packages/rgplates/index.html
 
-
-
-
 # Palaeogeographic maps ---------------------------------------------------
 
-## First, let's explore the rgplates package a little
+## We will create a map for every interval. For that, we need to know which collections
+## will be plotted on which map (which interval they belong to. )
 
-## Fetch the PaleoDEMs (Scotese and Wright, 2018) - this might take a while to load
-dems <- chronosphere::fetch(dat = "paleomap", var="dem")
-dems # returns a RasterArray class object
+## assign an interval to every collection 
+## an empty column
+locality_info_paleo$interval <- NA
 
-## Example plot for the ~late Silurian (based on age in Ma)
-plot(dems["420"], col = heat.colors(255)) 
+for(i in 1:nrow(intervals)){
+  ## Filter the occurrence data to contain localities from this interval only:
+	# which collectionscorrespond to this interval
+	intervalIndex <- which(
+		locality_info_paleo$max_ma <= intervals$max_ma[i] & 
+		locality_info_paleo$min_ma >= intervals$min_ma[i]
+	)
+
+	# which interval does this belong to 
+	locality_info_paleo$interval[intervalIndex] <- intervals$interval_name[i]
+}
+
+# There are gaps here due to the mismatch of the timescales - We have to rely on the primary input for binning!
+locality_info_paleo$interval[c(11,76:80, 391, 408, 409,414, 417 )] <- "Hettangian"
+locality_info_paleo$interval[c(59)] <- "Carnian"
+locality_info_paleo$interval[c(62)] <- "Norian"
+locality_info_paleo$interval[c(65, 123, 124,125,349:358, 367 , 369, 371, 395, 408, 431, 450:452)] <- "Toarcian"
 
 
 
@@ -97,17 +110,25 @@ palaeomap_theme <- theme_minimal() + theme(axis.title.x=element_blank(), axis.te
                                            legend.title=element_blank())
 
 ## Now let's plot the each of the maps!
-#£ First, create an empty list to populate through the loop below:
+# First, create an empty list to populate through the loop below:
 palaeomap_list <- list()
 
 ## Now, let's loop through each interval and plot a map for it
 ## This might take a minute or two to run as its doing a lot of work!
 for(i in 1:nrow(intervals)){
   
-  ## First, find the correct palaeomap based on the interval midpoint and reconstruct the landmasses:
+  ## First, find the correct palaeomap based on the interval midpoint and reconstruct the plates:
   this_map <- reconstruct("plates", age = round(intervals$mid_ma[i])) 
+
   ## Filter the occurrence data to contain localities from this interval only:
-  these_occs <- filter(locality_info_paleo, max_ma <= intervals$max_ma[i] & min_ma >= intervals$min_ma[i])
+  these_occs <- locality_info_paleo[which(locality_info_paleo$interval == intervals$interval_name[i]), ]
+
+  ## coordinates reconstruction
+  new_coords <- reconstruct(these_occs[,c("lng", "lat")], age= round(intervals$mid_ma[i]))
+  colnames(new_coords) <- c("plng", "plat")
+
+  ## column names: paleolong paleolat
+  these_occs<- cbind(these_occs, new_coords)
   
   ## Set up your ggplot layers:
   palaeomap_list[[i]] <-  ggplot() +
@@ -116,7 +137,7 @@ for(i in 1:nrow(intervals)){
     ## Use the Mollweide projection:
     coord_map("mollweide") +
     ## Add the occurrence data (and set your colour!):
-    geom_point(data = these_occs, aes(x = paleolng, y = paleolat), color = "#0DA69B", size = 4,  alpha = 0.8) + 
+    geom_point(data = these_occs, aes(x = plng, y = plat), color = "#0DA69B", size = 4,  alpha = 0.8) + 
     ## Add lines from the x and y axes
     scale_y_continuous(breaks = seq(from = -90, to = 90, by = 30), limits = c(-90,90)) + 
     scale_x_continuous(breaks = seq(from = -180, to = 180, by = 30), limits = c(-180,180)) + 
@@ -124,6 +145,9 @@ for(i in 1:nrow(intervals)){
     ggtitle(paste(" ", intervals$interval_name[i], sep = "")) +
     ## Finally, add the custom theme
     palaeomap_theme
+
+	cat(i, "\r")
+	flush.console()
 }
 
 ## To make a panel plot containing all the map, we'll need to arrange them first:
