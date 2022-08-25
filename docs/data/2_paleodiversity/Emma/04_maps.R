@@ -85,7 +85,7 @@ dems <- chronosphere::fetch(dat = "paleomap", var="dem")
 dems # returns a RasterArray class object
 
 ## Example plot for the ~late Silurian (based on age in Ma)
-plot(dems["420"], col = "chartreuse") 
+plot(dems["420"], col = heat.colors(255)) 
 
 
 
