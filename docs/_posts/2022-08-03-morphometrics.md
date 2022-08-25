@@ -24,7 +24,7 @@ Below, you find links to all exercise sheets for the geometric morphometrics ses
 * [Exercise 2: Outline data preparation]({{site.baseurl}}/slides/3_morphometrics/ExerciseSheet2_OutlineDataPreparation.pdf)
 * [Exercise 3: Outline analyses]({{site.baseurl}}/slides/3_morphometrics/ExerciseSheet3_OutlineAnalysis.pdf)
 * [Exercise 4: Landmark data preparation]({{site.baseurl}}/slides/3_morphometrics/ExerciseSheet4_LandmarkDataPreparation.pdf)
-* Exercise 5: Landmark data analysis
+* [Exercise 5: Landmark data analysis]({{site.baseurl}}/slides/3_morphometrics/ExerciseSheet5_LandmarkAnalysis.pdf)
 * [Exercise 6: Error analyses]({{site.baseurl}}/slides/3_morphometrics/ExerciseSheet6_ErrorAnalyses.pdf)
 * [Exercise 7: Open session]({{site.baseurl}}/slides/3_morphometrics/ExerciseSheet7_OpenSession.pdf)
 
