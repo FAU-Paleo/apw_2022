@@ -98,3 +98,13 @@ with Emma Dunne
 - [R code: 04 Modern and paleo- maps]({{site.baseurl}}/data/2_paleodiversity/Emma/04_maps2.R)
 
 
+### Reading list
+- Coming soon!
+
+
+### Useful tools:
+- [R colour chatsheet](https://www.nceas.ucsb.edu/sites/default/files/2020-04/colorPaletteCheatsheet.pdf)
+- [HTML colour codes](https://htmlcolorcodes.com/)
+- [Geological time scale RGB codes](https://timescalefoundation.org/charts/rgb.html)
+- [Coolers](https://coolors.co/011627-ff0022-41ead4-fdfffc-b91372)
+
