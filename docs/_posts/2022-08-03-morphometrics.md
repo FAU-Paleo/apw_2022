@@ -48,6 +48,8 @@ Below, you find links to all data and images used during the geometric morphomet
 * [Smoothed outlines of belemnite arm hooks]({{site.baseurl}}/data/3_morphometrics/Belemnite_SmoothedOutline.nts)
 * [Covariates for belemnite hooks]({{site.baseurl}}/data/3_morphometrics/Belemnite_Metadata.txt)
 * [Planktonic foraminifer landmarks]({{site.baseurl}}/data/3_morphometrics/SacculiferLandmarks.tps)
+* [Planktonic foraminifer abundance data]({{site.baseurl}}/data/3_morphometrics/ForamAbundances.txt)
+* [Planktonic foraminifer oceanography data]({{site.baseurl}}/data/3_morphometrics/ForamOceanography.txt)
 * [Planktonic Foraminifera, sample 1439.5--1440 cm, replication 1]({{site.baseurl}}/data/3_morphometrics/1439.5-1440_LM_Replicate1.tps)
 * [Planktonic Foraminifera, sample 1439.5--1440 cm, replication 2]({{site.baseurl}}/data/3_morphometrics/1439.5-1440_LM_Replicate2.tps)
 * [Planktonic Foraminifera, sample 1488--1488.5 cm, replication 1]({{site.baseurl}}/data/3_morphometrics/1488-1488.5_LM_Replicate1.tps)
