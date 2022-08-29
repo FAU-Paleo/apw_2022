@@ -32,7 +32,7 @@ with Emma Dunne
 ### Files
 - [Slideshow]({{site.baseurl}}/slides/5_global_div/Emma/Dunne_samp_standardisation.pdf)
 - [R code: SQS example]({{site.baseurl}}/data/5_global_div/Emma/05_samp_stand.R)
-- [Occurrence dataset]({{site.baseurl}}/data/5_global_div/Emma/ET_occurrences.csv)
+- [Interval dataset]({{site.baseurl}}/data/5_global_div/Emma/ET_intervals.csv)
 
 
 <br>
