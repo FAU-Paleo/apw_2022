@@ -4,10 +4,15 @@ layout: "post"
 permalink: "globaldiv/"
 ---
 
-# A heading 
+#
 
-Link to [an external website](https://git-scm.com/).
+Welcome to Module 2: Paleodiversity Analyses in R! Across these two days, we'll focus on how to analyse biodiversity in deep-time through theoretical introductions, hands-on exercises, and mini-assigments in R. 
 
-You can download any material like this: [file_name.txt]({{site.baseurl}}/data/5_global_div/metadata.txt)
 
-![img](https://www.paleosynthesis.nat.fau.de/wp-content/uploads/2019/09/Icon-SummerSchool-150x150.png)
+| When   | What                                                                  |
+|--------|-----------------------------------------------------------------------|
+| Aug 24 | **Day 8**: Global diversity                                        |
+| Aug 25 | **Day 9**: Exploring fossil occurrence data and fossil record biases  |
+|--------|-----------------------------------------------------------------------|
+
+
