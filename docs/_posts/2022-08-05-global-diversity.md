@@ -104,7 +104,7 @@ with Carl J Reddin
 
 ##### Example Code
 
-- Example code for vector data: [1_vector.R]({{site.baseurl}}/data/5_global_div/Logistic_regression.R)
+- Teaching code used: [Logistic_regression.R]({{site.baseurl}}/data/5_global_div/Logistic_regression.R)
 
 
 <br>
