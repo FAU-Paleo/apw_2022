@@ -42,6 +42,20 @@ with Emma Dunne
 ## Day 8 (Afternoon): 
 with Adam Kocsis
 
+### Schedule 
+
+| From  | To    | What                         |
+|-------|-------|------------------------------|
+| 13:00 | 13:45 | Diversity Dynamics - why     |
+| 13:45 | 14:00 | Coffee Break                 |
+| 14:00 | 15:15 | The Coral Example            |
+| 15:15 | 15:30 | Coffee Break                 |
+| 15:30 | 16:00 | The Phanerozoic PBDB Dataset |
+
+### The Coral Example
+
+- [Rendered html]({{site.baseurl}}/data/5_global_div/Adam/scleractinian-tutorial_chronos.html)
+- Source R markdown: [scleractinian-tutorial_chronos.Rmd](https://www.dropbox.com/s/91npw4zemstvure/scleractinian-tutorial_chronos.Rmd?dl=1)
 
 
 <br>

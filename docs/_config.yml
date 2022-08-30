@@ -27,6 +27,9 @@ baseurl: "/apw_2022" # the subpath of your site, e.g. /blog
 theme: minima
 plugins:
   - jekyll-feed
+exclude:
+ - "data/4_gis/doc/0_rmarkdown_template.Rmd"
+ - "data/5_global_div/Adam/scleractinian-tutorial_chronos.Rmd"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
