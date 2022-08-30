@@ -25,14 +25,21 @@ with Emma Dunne
 |-------|-------|----------------------------------------|
 | 09:00 | 10:00 | Intro to sampling standardisation      |
 | 10:00 | 10:15 | COFFEE                                 |
-| 10:15 | 11:00 | SQS in R (early tetrapods)             |
-| 11:00 | 12:30 | Mini-project!                          |
+| 10:15 | 12:00 | SQS in R (early tetrapods)             |
 | 12:00 | 13:30 | LUNCH                                  |
 
-### Files
+
+### Files for SQS in R (early tetrapods):
 - [Slideshow]({{site.baseurl}}/slides/5_global_div/Emma/Dunne_samp_standardisation.pdf)
-- [R code: SQS example]({{site.baseurl}}/data/5_global_div/Emma/05_samp_stand.R)
+- [R code: SQS example (iNEXT v. 2.0.)]({{site.baseurl}}/data/5_global_div/Emma/05_samp_stand.R)
 - [Interval dataset]({{site.baseurl}}/data/5_global_div/Emma/ET_intervals.csv)
+
+### Useful resources: 
+[Bethany Allen's squares tutorial](https://github.com/bethany-j-allen/sampling_bias_workshop)
+[Gwen Antell's package kerneval](https://github.com/GwenAntell/kerneval)
+
+### Reading list
+- Coming soon!
 
 
 <br>
