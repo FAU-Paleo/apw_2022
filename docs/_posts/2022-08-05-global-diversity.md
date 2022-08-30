@@ -46,11 +46,11 @@ with Adam Kocsis
 
 | From  | To    | What                         |
 |-------|-------|------------------------------|
-| 13:00 | 13:45 | Diversity Dynamics - why     |
-| 13:45 | 14:00 | Coffee Break                 |
-| 14:00 | 15:15 | The Coral Example            |
-| 15:15 | 15:30 | Coffee Break                 |
-| 15:30 | 16:00 | The Phanerozoic PBDB Dataset |
+| 13:30 | 14:00 | Diversity Dynamics - why     |
+| 14:00 | 14:15 | Coffee Break                 |
+| 14:15 | 15:30 | The Coral Example            |
+| 15:30 | 15:45 | Coffee Break                 |
+| 15:54 | 16:15 | The Phanerozoic PBDB Dataset |
 
 ### The Coral Example
 
