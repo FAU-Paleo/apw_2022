@@ -63,8 +63,41 @@ with Adam Kocsis
 <br>
 
 ## Day 9 (Morning): Extinction selectivity & survivorship
-with Carl Reddin
+with Carl J Reddin
 
+### Schedule
+
+| From  | To    | What                                                    |
+|-------|-------|---------------------------------------------------------|
+| 9:00  | 9:30  | Some logistic regression basics                         |
+| 9:30  | 10:15 | Extinction determined by occupancy and its trajectory   |
+| 10:15 | 10:30 | **Coffee break**                                        |
+| 10:30 | 11:45 | Extinction selectivity by clades and traits             |
+|-------|-------|---------------------------------------------------------|
+| 11:45 | 13:00 | **Lunch Break**                                         |
+
+
+### Other resources
+- Zoom link for sharing screens and text <https://fau.zoom.us/j/62529155767>
+
+
+### The R-markdown format
+- template file: [0_rmarkdown_template.Rmd](https://www.dropbox.com/s/07n1fduh145h251/0_rmarkdown_template.Rmd?dl=1)
+
+
+### Slides
+- Slides for logistic regression/extinction selectivity teaching: [Extinction selectivity & logistic regression.pptx]({{site.baseurl}}/slides/5_global_div/Extinction_selectivity_and_logistic_regression.pptx)
+
+
+##### Example Data
+
+- Example data for last exercise: [Reddin et al. Fossil selectivity supporting data.csv]({{site.baseurl}}/data/5_global_div/Reddin_et_al._Fossil_selectivity_supporting_data.csv)
+- Example data for second exercise: [dat10.csv]({{site.baseurl}}/data/5_global_div/dat10.csv)
+- Example data for last exercise: [genus.sizes.ranges.rev.csv]({{site.baseurl}}/data/5_global_div/genus.sizes.ranges.rev.csv)
+
+##### Example Code
+
+- Example code for vector data: [1_vector.R]({{site.baseurl}}/data/5_global_div/Logistic_regression.R)
 
 
 <br>
