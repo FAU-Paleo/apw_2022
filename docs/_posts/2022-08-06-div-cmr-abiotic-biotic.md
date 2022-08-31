@@ -21,6 +21,3 @@ permalink: "cmr_bio_abio/"
 - [Erlangen Tutorial 2.R]({{site.baseurl}}/data/6_cmr_bio_abio/R/Erlangen Tutorial 2.R)
 - [Erlangen Tutorial 3.R]({{site.baseurl}}/data/6_cmr_bio_abio/R/Erlangen Tutorial 3.R)
 
-
-
-![img](https://www.paleosynthesis.nat.fau.de/wp-content/uploads/2019/09/Icon-SummerSchool-150x150.png)
