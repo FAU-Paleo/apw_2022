@@ -4,6 +4,8 @@ layout: "post"
 permalink: "cmr_bio_abio/"
 ---
 
+[Erlangen 2022 course notes (Liow).docx]({{site.baseurl}}/data/6_cmr_bio_abio/Erlangen 2022 course notes (Liow).docx)
+
 ### Slides 
 
 - [ErlangenLiow1.pdf]({{site.baseurl}}/data/6_cmr_bio_abio/Slides/ErlangenLiow1.pdf)
