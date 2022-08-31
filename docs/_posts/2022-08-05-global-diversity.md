@@ -64,6 +64,10 @@ with Adam Kocsis
 - [Rendered html]({{site.baseurl}}/data/5_global_div/Adam/scleractinian-tutorial_chronos.html)
 - Source R markdown: [scleractinian-tutorial_chronos.Rmd](https://www.dropbox.com/s/91npw4zemstvure/scleractinian-tutorial_chronos.Rmd?dl=1)
 
+### Additional resources
+- [Manual to the divDyn package](https://cran.r-project.org/web/packages/divDyn/vignettes/handout.pdf)
+- [Phanerozoic-scale marine analysis repository](https://github.com/divDyn/ddPhanero)
+
 
 <br>
 - - -
@@ -86,10 +90,6 @@ with Carl J Reddin
 
 ### Other resources
 - Zoom link for sharing screens and text <https://fau.zoom.us/j/62529155767>
-
-
-### The R-markdown format
-- template file: [0_rmarkdown_template.Rmd](https://www.dropbox.com/s/07n1fduh145h251/0_rmarkdown_template.Rmd?dl=1)
 
 
 ### Slides
@@ -115,3 +115,19 @@ with Carl J Reddin
 with Adam Kocsis
 
 
+### Schedule
+
+| From  | To    | What                                                              |
+|-------|-------|-------------------------------------------------------------------|
+| 13:30 | 14:30 | Phanerozoic marine data preparation and coordinate reconstruction |
+| 14:30 | 14:45 | Break                                                             |
+| 14:45 | 15:45 | Working with Paleogeographic Reconstructions                      |
+| 15:45 | 16:00 | Break                                                             |
+| 16:00 | 17:00 | Icosahedral gridding (and maybe: bioregionalzation examples)      |
+
+
+##### Code
+- Data Preparation: [1_data.R]({{site.baseurl}}/data/5_global_div/Adam/marine_spatial/1_data.R)
+- Plotting and interaction with paleogeographic reconstructions: [2_plotting.R]({{site.baseurl}}/data/5_global_div/Adam/marine_spatial/2_plotting.R)
+- Example uses of icosahedral grids: [3_spatialbins.R]({{site.baseurl}}/data/5_global_div/Adam/marine_spatial/3_spatialbins.R)
+- Bioregionalization example: [4_regionalization.R]({{site.baseurl}}/data/5_global_div/Adam/marine_spatial/4_regionalization.R)
