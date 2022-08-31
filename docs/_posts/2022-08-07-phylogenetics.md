@@ -4,7 +4,21 @@ layout: "post"
 permalink: "phylogenetics/"
 ---
 
-# A heading 
+# Module 7: Phylogenetics 
+
+| When   | What                                                                                       |
+|--------|--------------------------------------------------------------------------------------------|
+| Sept 5 | **Day 12**: Intro to tree building, substitution models and Bayesian inference             |
+| Sept 6 | **Day 13**: Phylogenetic dating using the fossilised birth-death process                   |
+| Sept 7 | **Day 14**: Model selection, model adequacy, beyond topology                               |
+|--------|--------------------------------------------------------------------------------------------|
+
+<br>
+- - -
+<br>
+
+
+
 
 Link to [an external website](https://git-scm.com/).
 
