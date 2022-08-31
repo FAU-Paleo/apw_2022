@@ -6,7 +6,10 @@ permalink: "cmr_bio_abio/"
 
 ### Slides 
 
-Link to [an external website](https://git-scm.com/).
+- [ErlangenLiow1.pdf]({{site.baseurl}}/data/6_cmr_bio_abio/Slides/ErlangenLiow1.pdf)
+- [ErlangenLiow2.pdf]({{site.baseurl}}/data/6_cmr_bio_abio/Slides/ErlangenLiow2.pdf)
+- [ErlangenLiow3.pdf]({{site.baseurl}}/data/6_cmr_bio_abio/Slides/ErlangenLiow3.pdf)
+- [ErlangenLiow4.pdf]({{site.baseurl}}/data/6_cmr_bio_abio/Slides/ErlangenLiow4.pdf) 
 
 ### Tutorials
 - [Erlangen Tutorial 1.R]({{site.baseurl}}/data/6_cmr_bio_abio/R/Erlangen Tutorial 1.R)
