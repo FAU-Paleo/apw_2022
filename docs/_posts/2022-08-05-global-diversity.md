@@ -137,12 +137,6 @@ with Adam Kocsis
 - Example uses of icosahedral grids: [3_spatialbins.R]({{site.baseurl}}/data/5_global_div/Adam/marine_spatial/3_spatialbins.R)
 - Bioregionalization example: [4_regionalization.R]({{site.baseurl}}/data/5_global_div/Adam/marine_spatial/4_regionalization.R)
 
-##### GPlates-related
-
-- [GPlates](https://www.gplates.org/)
-- [Quick tutorial for novices (FAU class)](https://adamkocsis.github.io/se3-gplates/)
-- [Full tutorial](https://sites.google.com/site/gplatestutorials/)
-
 ##### Papers and resources
 
 - [The PaleoMAP PaleoDEMs](https://www.earthbyte.org/paleodem-resource-scotese-and-wright-2018/)
@@ -160,6 +154,7 @@ with Adam Kocsis
 | PaleoMAP Paleoatlas            | `fetch("paleomap", "paleoatlas")`      |
 | PaleoMAP Polygons and rotation | `fetch("paleomap", "model")`           |
 | PaleoMAP Paleocoastlines       | `fetch("paleomap", "paleocoastlines")` |
+| Natural Earth Land Polygons    | `fetch("NaturalEarth")`                |
 
 
 ### Suggested Exercises
