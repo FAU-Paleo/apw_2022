@@ -1,4 +1,8 @@
 # Basic code for the Phanerozoic-scale, stage-level data preparetion for marine Genera
+# Analytical Paleo Workshop
+# Erlangen, 2022
+# Ádám T. Kocsis
+# CC-BY (attribution)
 ################################################################################
 # Necessary packages
 ## library(chronosphere) # data distribution
@@ -357,6 +361,13 @@
 	legend("top", bg="white", legend=c("occurrences", "collections"), 
 		col=c("black", "blue"), lwd=2, inset=c(0.15,0.01), cex=1.3)
 	
+# example metrics
+	ddStages<-divDyn(dat, bin="stg", tax="clgen")
+
+	# basic T-diversity curve
+	tsplot(stages, boxes="sys", shading="sys", xlim=4:95, ylim=c(0, 4000))
+	lines(stages$mid, ddStages$divRT, col="black")	
+
 ################################################################################
 # 2. Reconstruction of paleocoordinates to stage midpoints
 ################################################################################
@@ -474,16 +485,11 @@ datReconstructed <- merge(
 )
 
 
-# example metrics
-	ddStages<-divDyn(datReconstructed, bin="stg", tax="clgen")
-
-	# basic T-diversity curve
-	tsplot(stages, boxes="sys", shading="sys", xlim=4:95, ylim=c(0, 4000))
-	lines(stages$mid, ddStages$divRT, col="black")	
-
 # Now is a good idea to save what we have done!
 setwd("/mnt/sky/Dropbox/Teaching/Workshops/2022-08-22_APW/teach/5_divDyn/")
 dir.create("export", showWarning=F)
 saveRDS(datReconstructed, file="export/processed_data.rds")
+
+
 
 

@@ -88,10 +88,6 @@ with Carl J Reddin
 | 11:45 | 13:00 | **Lunch Break**                                         |
 
 
-### Other resources
-- Zoom link for sharing screens and text <https://fau.zoom.us/j/62529155767>
-
-
 ### Slides
 - Slides for logistic regression/extinction selectivity teaching: [Extinction selectivity & logistic regression.pptx]({{site.baseurl}}/slides/5_global_div/Extinction_selectivity_and_logistic_regression.pptx)
 
@@ -127,7 +123,34 @@ with Adam Kocsis
 
 
 ##### Code
+
 - Data Preparation: [1_data.R]({{site.baseurl}}/data/5_global_div/Adam/marine_spatial/1_data.R)
 - Plotting and interaction with paleogeographic reconstructions: [2_plotting.R]({{site.baseurl}}/data/5_global_div/Adam/marine_spatial/2_plotting.R)
 - Example uses of icosahedral grids: [3_spatialbins.R]({{site.baseurl}}/data/5_global_div/Adam/marine_spatial/3_spatialbins.R)
 - Bioregionalization example: [4_regionalization.R]({{site.baseurl}}/data/5_global_div/Adam/marine_spatial/4_regionalization.R)
+
+##### GPlates-related
+
+- [GPlates](https://www.gplates.org/)
+- [Quick tutorial for novices (FAU class)](https://adamkocsis.github.io/se3-gplates/)
+- [Full tutorial](https://sites.google.com/site/gplatestutorials/)
+
+##### Papers and resources
+
+- [The PaleoMAP PaleoDEMs](https://www.earthbyte.org/paleodem-resource-scotese-and-wright-2018/)
+- [The PaleoMAP Paleoatlas](https://www.earthbyte.org/paleomap-paleoatlas-for-gplates/)
+- The PaleoMAP Paleocoastlines: [article](https://www.sciencedirect.com/science/article/abs/pii/S0012825220305092), [pdf](https://www.dropbox.com/s/b50wuv6jw318qrb/Kocsis%20and%20Scotese%2C%202021.pdf?dl=1)
+- Marine Bioregionalization by Adam: [article](https://onlinelibrary.wiley.com/doi/10.1111/geb.12771), [pdf](https://www.dropbox.com/s/jp7jx9mw3b8h8dv/Kocsis%20et%20al.%20-%202018%20-%20The%20stability%20of%20coastal%20benthic%20biogeography%20over.pdf?dl=1)
+- Intro to the icosa R package: [vignette](https://cran.r-project.org/web/packages/icosa/vignettes/icosa.pdf)
+
+##### Chronosphere calls
+
+| Data item                      | Chronosphere calls                     |
+|--------------------------------|----------------------------------------|
+| The Paleobiology Database      | `fetch("pbdb")`                        |
+| PaleoMAP PaleoDEM              | `fetch("paleomap", "dem")`             |
+| PaleoMAP Paleoatlas            | `fetch("paleomap", "paleoatlas")`      |
+| PaleoMAP Polygons and rotation | `fetch("paleomap", "model")`           |
+| PaleoMAP Paleocoastlines       | `fetch("paleomap", "paleocoastlines")` |
+
+

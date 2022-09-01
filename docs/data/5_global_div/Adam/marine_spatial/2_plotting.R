@@ -1,4 +1,8 @@
 # For plotting the occurrences on paleogeographic maps
+# Analytical Paleo Workshop
+# Erlangen, 2022
+# Ádám T. Kocsis
+# CC-BY (attribution)
 # Continuing
 library(divDyn)
 library(chronosphere)
@@ -11,6 +15,7 @@ setwd("/mnt/sky/Dropbox/Teaching/Workshops/2022-08-22_APW/teach/5_divDyn/spatial
 
 # for the chronosphere data!
 dataDirectory <- "data/chronosphere"
+dir.create("data", showWarnings=FALSE)
 dir.create(dataDirectory, showWarnings=FALSE )
 
 # the DEMS
@@ -32,7 +37,7 @@ datReconstructed <- readRDS(file="export/processed_data.rds")
 # loop through every stage -based on the stage ID
 
 # an example stage
-i <- 81
+i <- 67
 
 # data that come from this slice
 stgDat <- datReconstructed[which(datReconstructed$stg==i), ]
@@ -62,7 +67,7 @@ points(
 currentMap<- rast(dems[age])
 # plot the map
 library(viridis)
-plot(currentMap, col=viridis(255), boxes=FALSE)
+plot(currentMap, col=viridis(255), axes=FALSE)
 
 # putting the actual occurrences on top of this
 points(
@@ -106,3 +111,8 @@ points(
 	pch=16,
 	col=stages$col[i]
 )
+
+
+
+##############################
+vals <- extract(dems[age], stgDat[, c("stg_lng", "stg_lat")])

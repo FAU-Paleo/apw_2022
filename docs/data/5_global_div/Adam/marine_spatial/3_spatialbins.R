@@ -1,4 +1,8 @@
 # For plotting the occurrences on paleogeographic maps
+# Analytical Paleo Workshop
+# Erlangen, 2022
+# Ádám T. Kocsis
+# CC-BY (attribution)
 # Continuing
 library(divDyn)
 library(chronosphere)
@@ -53,6 +57,9 @@ points(
 	col=stages$col[i]
 )
 
+
+
+
 ###############################################################################
 # icosahedral griding
 # install.packages("icosa")
@@ -61,7 +68,10 @@ data(tessguide)
 tessguide[1:20,]
 
 # a 10-degree mean edge-length grid
-hexa <- hexagrid(4, sp=TRUE)
+tri <- trigrid(2, sp=TRUE)
+plot(tri)
+
+hexa <- hexagrid(c(4, 8), sp=TRUE)
 hexa
 
 # two dimensional representation
@@ -106,7 +116,7 @@ gridSF$richness <- richness[gridSF$cell]
 # richness plot
 plot(gridSF["richness"], reset=FALSE, border="white")
 plot(coastlines$geometry, add=TRUE, border="black", col="#55555544")
-a
+
 ########################################----------------------------------------
 # C. Geographic range measurement
 # e.g. occupancy

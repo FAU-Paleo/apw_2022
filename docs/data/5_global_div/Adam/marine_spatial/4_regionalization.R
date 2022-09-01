@@ -1,11 +1,18 @@
-# For plotting the occurrences on paleogeographic maps
+# Basic regionalization
+# Analytical Paleo Workshop
+# Erlangen, 2022
+# Ádám T. Kocsis
+# CC-BY (attribution)
 # Continuing
-library(divDyn)
-library(chronosphere)
-library(rgplates)
-library(sf)
-library(icosa)
+library(divdyn) # basic species cleaning
+library(chronosphere) # data download
+library(rgplates) # reconstruction
+library(sf) # vector spatial
+library(icosa) # icosahedral gridding
+library(igraph) # graphs/networks
 
+########################################
+# workdir
 setwd("/mnt/sky/Dropbox/Teaching/Workshops/2022-08-22_APW/teach/5_divDyn/spatials")
 
 # for the chronosphere data!
@@ -44,9 +51,7 @@ both <- merge(lastBin, diag[, c("original", "binomen")], by.x="sp", by.y="origin
 # how much is not species level
 sum(is.na(both$binomen))/nrow(both)
 
-
 ########################################
-# clustering
 # select only benthic core taxa
 need <- which(
 	both$class=="Anthozoa"  |
