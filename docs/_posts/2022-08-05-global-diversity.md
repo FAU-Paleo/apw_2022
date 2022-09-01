@@ -59,14 +59,23 @@ with Adam Kocsis
 | 15:30 | 15:45 | Coffee Break                 |
 | 15:54 | 16:15 | The Phanerozoic PBDB Dataset |
 
+### Slides
+
+- [Introduction to diversity dynamics and divDyn]({{site.baseurl}}/slides/5_global_div/2022-08-30_divDyn_basics.pdf)
+
+### divDyn
+
+- [CRAN link](https://cran.r-project.org/package=divDyn)
+- [paper](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13161)
+- [Phanerozoic-scale marine analysis repository (ddPhanero)](https://github.com/divDyn/ddPhanero)
+
 ### The Coral Example
 
 - [Rendered html]({{site.baseurl}}/data/5_global_div/Adam/scleractinian-tutorial_chronos.html)
 - Source R markdown: [scleractinian-tutorial_chronos.Rmd](https://www.dropbox.com/s/91npw4zemstvure/scleractinian-tutorial_chronos.Rmd?dl=1)
-
-### Additional resources
+- The paper: [web](https://www.cambridge.org/core/journals/paleobiology/article/biodiversity-dynamics-and-environmental-occupancy-of-fossil-azooxanthellate-and-zooxanthellate-scleractinian-corals/AFDDEC55B161E4D73F8C0B7DEAA26FC1), [pdf](https://www.dropbox.com/s/fx6btewryc1mue0/Kiessling%20and%20Kocsis%2C%202015%20-%20Corals.pdf?dl=1)
 - [Manual to the divDyn package](https://cran.r-project.org/web/packages/divDyn/vignettes/handout.pdf)
-- [Phanerozoic-scale marine analysis repository](https://github.com/divDyn/ddPhanero)
+
 
 
 <br>
@@ -90,7 +99,6 @@ with Carl J Reddin
 
 ### Slides
 - Slides for logistic regression/extinction selectivity teaching: [Extinction selectivity & logistic regression.pptx]({{site.baseurl}}/slides/5_global_div/Extinction_selectivity_and_logistic_regression.pptx)
-
 
 ##### Example Data
 
