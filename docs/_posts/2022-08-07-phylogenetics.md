@@ -18,10 +18,9 @@ permalink: "phylogenetics/"
 <br>
 
 
+## Required software
 
+Please download and install the following software before the class on Monday. 
 
-Link to [an external website](https://git-scm.com/).
-
-You can download any material like this: [file_name.txt]({{site.baseurl}}/data/7_phylogenetics/metadata.txt)
-
-![img](https://www.paleosynthesis.nat.fau.de/wp-content/uploads/2019/09/Icon-SummerSchool-150x150.png)
+* [RevBayes](https://github.com/revbayes/revbayes/releases/tag/test-windows3)
+* [Tracer](http://tree.bio.ed.ac.uk/software/tracer/)
