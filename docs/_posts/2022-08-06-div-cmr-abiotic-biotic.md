@@ -21,3 +21,5 @@ permalink: "cmr_bio_abio/"
 - [Erlangen Tutorial 2.R]({{site.baseurl}}/data/6_cmr_bio_abio/R/Erlangen Tutorial 2.R)
 - [Erlangen Tutorial 3.R]({{site.baseurl}}/data/6_cmr_bio_abio/R/Erlangen Tutorial 3.R)
 
+### Data
+- [Tutorial 3 data]({{site.baseurl}}/data/6_cmr_bio_abio/R/tutorial3data.RData)
