@@ -24,3 +24,6 @@ Please download and install the following software before the class on Monday.
 
 * [RevBayes](https://github.com/revbayes/revbayes/releases/tag/test-windows3) (release version = test-windows3)
 * [Tracer](http://tree.bio.ed.ac.uk/software/tracer/)
+
+
+<iframe src="https://giphy.com/embed/R46UjhMjeOGVhKS1sD" width="480" height="354" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/tcm-black-excellence-nicholas-brothers-the-R46UjhMjeOGVhKS1sD">via GIPHY</a></p>
