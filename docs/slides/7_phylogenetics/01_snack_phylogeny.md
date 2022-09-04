@@ -1,4 +1,10 @@
-# Snack phylogeny
+---
+title: ""
+layout: "post" 
+permalink: "snack_phylogeny"
+---
+
+## Snack phylogeny
 
 In this exercise, we'll explore the process of building a phylogeny.
 
