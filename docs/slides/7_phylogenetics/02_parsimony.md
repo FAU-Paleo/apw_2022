@@ -1,7 +1,7 @@
 ---
 title: ""
 layout: "post" 
-permalink: "parsimony"
+permalink: "phylogenetics/parsimony"
 ---
 
 ## Tree building using parsimony
