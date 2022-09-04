@@ -1,7 +1,7 @@
 ---
 title: ""
 layout: "post" 
-permalink: "snack_phylogeny"
+permalink: "phylogenetics/snack_phylogeny"
 ---
 
 ## Snack phylogeny
