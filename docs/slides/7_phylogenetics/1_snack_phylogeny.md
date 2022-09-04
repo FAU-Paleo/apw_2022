@@ -10,19 +10,21 @@ How you do this is completely up to you and your group. It might help to start b
 
 ### Create a Newick version of tree
 
-The most widely used format for storing trees is [Newick format](https://en.wikipedia.org/wiki/Newick_format). Brackets are used to indicate which taxa group together.
+The most widely used format for storing trees is [Newick format](https://en.wikipedia.org/wiki/Newick_format). 
+
+Brackets are used to indicate which taxa group together, representing internal nodes. Descendants are separated by commas.
 
 ```
 (A, B); # rooted
 ((A, B), (C, D)); # rooted
 (((A, B), (C, D)), E); # rooted
-((A, B), (C, D), E); # unrooted
+(A, B, (C, D)); # unrooted
 ```
 
-Note the tree string must end in ```;```.
-A rooted binary tree all nodes will have two descendants. 
+Note the string must end in a semicolon.
+In a rooted binary tree all nodes will have two descendants. 
 
-**Store your tree in Newick format**. You can use Tim Vaughan's online tool [IcyTree](https://icytree.org) to plot the tree and see that everything is correct. You can use File > Enter tree directly to copy & paste directly into the program.
+**Store your tree in Newick format**. You can use Tim Vaughan's online tool [IcyTree](https://icytree.org) to plot the tree and see that everything is correct. You can use 'File > Enter tree directly' to copy & paste your tree.
 
 ### Acknowledgements
 
