@@ -21,7 +21,7 @@ Please download and install the following software before the class on Monday.
 * [RevBayes](https://github.com/revbayes/revbayes/releases/tag/test-windows3) (release version = test-windows3)
 * [Tracer](http://tree.bio.ed.ac.uk/software/tracer/)
 
-## Day 1
+## Day 1 (provisional)
 
 | When   | What                                                                                       |
 |--------|--------------------------------------------------------------------------------------------|
