@@ -26,6 +26,8 @@ In a rooted binary tree all nodes will have two descendants.
 
 **Store your tree in Newick format**. You can use Tim Vaughan's online tool [IcyTree](https://icytree.org) to plot the tree and see that everything is correct. You can use 'File > Enter tree directly' to copy & paste your tree.
 
+When you're done email us your tree (rachel.warnock@fau.de).
+
 ### Acknowledgements
 
 This exercise is based on the one described [here](https://labroides.wordpress.com/candy-phylogeny/) by Josh Drew. 
