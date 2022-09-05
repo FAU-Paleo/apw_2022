@@ -114,7 +114,8 @@ This rate will be used for all branches.
 
 Next we'll specify the GTR substitution model, which describes the probability of transitioning from one character state to another. 
 
-**Hint** you can use your code or script from the [previous exercise](exercise-04.html#GTR).
+**Hint** you can use your code or script from the [previous exercise]
+({{site.baseurl}}/phylogenetics/bayesian).
 
 We just need to make one change from the previous exercise. We need to specify the branch rates using the argument `branchRates = branch_rates`. This tells the function that we're using a molecular clock.
 
