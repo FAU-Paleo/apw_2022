@@ -64,12 +64,6 @@ For setting up regular Bayesian tree inference we need to specify two model comp
 First we'll set up the uniform tree prior in `main.Rev`. The following specifies a uniform prior on the **tree topology** $-$ this means that all possible tree configurations have the *same probability* under the prior. The tree is a [stochastic](exercise-03.html#stochastic) variable.
 
 ```
-#TODO this doesn't work
-out_group <- clade("Galeopterus_variegatus") # define the outgroup so we can root the tree, this is the flying lemur
-topology ~ dnUniformTopology(taxa, outgroup = out_group)
-```
-
-```
 topology ~ dnUniformTopology(taxa)
 ```
 
@@ -195,9 +189,7 @@ You're already getting a flavor for how long MCMC analyses can take. It's very c
 
 Once your longer run is complete, open the file again in Tracer. Your new output should look something like this.
 
-```{r, echo=FALSE, out.width="85%",  out.extra='style="padding:10px"'}
-knitr::include_graphics("trace2.png")
-```
+![img]({{site.baseurl}}/images/trace2.png) 
 
 > What differences do you notice in the output? 
 
@@ -208,7 +200,7 @@ Back in RevBayes we can also generate summary trees. We'll use the maximum a pos
 It is important to note the summary tree is not the "true" result $-$ the entire posterior distribution (which might contain multiple trees) is the full result. 
 
 
-```{r MAP, eval=FALSE}
+```
 # read the tree file back in
 treetrace = readTreeTrace("output/primates_JC.trees", treetype = "non-clock")
 # generate a MAP tree
@@ -219,9 +211,7 @@ You can open this tree in FigTree. Root the tree along the branch leading to `"G
 Next let's look at the node support. Go to Node Labels > Display > posterior.
 Your output should look something like this.
 
-```{r, echo=FALSE, out.width="85%",  out.extra='style="padding:10px"'}
-knitr::include_graphics("figtree.png")
-```
+![img]({{site.baseurl}}/images/figtree.png) 
 
 ## The GTR substitution model {#GTR}
 
