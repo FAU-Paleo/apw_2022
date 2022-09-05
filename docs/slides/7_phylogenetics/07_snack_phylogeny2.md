@@ -15,7 +15,9 @@ Discuss the following in your groups:
  * **Is your tree compatible with this age information?**
  * **Would you make any changes to your tree?**
 
-![img]({{site.baseurl}}/images/group1snack_tree.png)
+![img]({{site.baseurl}}/images/group1snack_tree.jpeg)
+
+![img]({{site.baseurl}}/images/group2snack_tree.png) 
 
 ![img]({{site.baseurl}}/images/group3snack_tree.png) 
 

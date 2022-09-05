@@ -1,7 +1,7 @@
 ---
 title: ""
 layout: "post" 
-permalink: "phylogenetics/fbd"
+permalink: "phylogenetics/fbd_inf"
 ---
 
 ## Bayesian tree inference using the fossilised birth-death process RevBayes
