@@ -276,4 +276,4 @@ map_tree = mapTree(treetrace, "output/primates_GTR_MAP.tree")
 
 > Are there any differences between the summary trees?  
 
-A complete set of scripts for this exercise can be downloaded [here](scripts/exercise04-scripts.zip).
+A complete set of scripts for this exercise can be downloaded [here](scripts/exercise-RB01-scripts.zip).
