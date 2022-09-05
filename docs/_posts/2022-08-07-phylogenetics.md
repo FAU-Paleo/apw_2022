@@ -32,7 +32,8 @@ Please download and install the following software before the class on Monday.
 | AM | [Exercise 3: Likelihood]({{site.baseurl}}/phylogenetics/likelihood)                  |
 | PM | [Introduction to RevBayes and Rev langauge]({{site.baseurl}}/slides/7_phylogenetics/part3_RB_intro.pdf) |
 | PM | [Exercise 4: the Rev language]({{site.baseurl}}/phylogenetics/revbayes)        |
-| PM | Introduction to Bayesian inference |
+| PM | [Brief intro to Bayesian inference and MCMC]({{site.baseurl}}/slides/7_phylogenetics/part4.pdf) |
+| PM | [Exercise 5: Bayesian tree inference using RevBayes]({{site.baseurl}}/phylogenetics/bayesian)        |
 |--------|--------------------------------------------------------------------------------------------|
 
 
