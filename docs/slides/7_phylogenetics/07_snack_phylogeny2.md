@@ -6,13 +6,19 @@ permalink: "phylogenetics/snack_phylogeny2"
 
 ## Snack phylogeny
 
-In this exercise, we'll explore the impact of time on phylogeny.
+In this exercise, we'll explore the impact of age information on topology.
 
-Below are the trees you produced yesterday. Today you have some additional information about the *age* of each snack.
+Below are the trees you produced yesterday. Today you have some additional information about the age of each snack.
 
 Discuss the following in your groups:
- * **Is your tree compatible with this information?**
- * **Do your need to make any changes to your tree?**
+
+ * **Is your tree compatible with this age information?**
+ * **Would you make any changes to your tree?**
+
+![img]({{site.baseurl}}/images/group1snack_tree.png)
+
+![img]({{site.baseurl}}/images/group3snack_tree.png) 
+
 
 ### Acknowledgements
 

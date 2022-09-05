@@ -217,7 +217,7 @@ This might take a while run pretty quickly. Meanwhile, you could move on to the 
 As before, open your `.log` file in Tracer.  
 It should look something like this. 
 
-![img]({{site.baseurl}}/images/trace5.png) 
+![img]({{site.baseurl}}/images/trace5.png)
 
 > Explore the output. Can you identify the different parameters? Has the analysis converged?
 
