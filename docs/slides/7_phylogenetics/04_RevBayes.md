@@ -20,7 +20,7 @@ Once you have it up and running, see if you can produce any sensible output usin
 
 Constant variables have a fixed value and are specified using the left arrow `<-` assignment.
 
-```{r fixed, eval=FALSE}
+```
 a <- 4
 b <- 10
 a + b
