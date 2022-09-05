@@ -6,7 +6,7 @@ permalink: "phylogenetics/bayesian"
 
 # Bayesian tree inference using RevBayes
 
-In this exercise we'll estimate of a tree of primates using a slightly longer alignment than the one we used before $-$ you can download this from ({{site.baseurl}}/data/7_phylogenetics/primates_and_galeopterus_cytb.nex). 
+In this exercise we'll estimate of a tree of primates using a slightly longer alignment than the one we used before - you can download this from ({{site.baseurl}}/data/7_phylogenetics/primates_and_galeopterus_cytb.nex). 
 
 We'll use a straightforward Bayesian approach and a standard set of substitutions models. 
 
@@ -20,7 +20,7 @@ For this tutorial you'll also need to install the software [Tracer](http://beast
 
 If you want you can use RevStudio, which is similar to RStudio but designed for RevBayes.
 
-I personally prefer to edit scripts using a text editor and save my files in sub-directories $-$ usually I have one for data, one for scripts and one for output. This can be useful for constructing more complex and hierarchical models in a modular fashion. You can then simply call your main script using the command `source()`, in the same way as R. We'll see an example of this below.
+I personally prefer to edit scripts using a text editor and save my files in sub-directories - usually I have one for data, one for scripts and one for output. This can be useful for constructing more complex and hierarchical models in a modular fashion. You can then simply call your main script using the command `source()`, in the same way as R. We'll see an example of this below.
 
 For this exercise you can create a folder called `exercise 4` or something. Then create two sub-directories, `data` for your nexus file and  `scripts` for your code. For this tutorial we'll create at least three scripts:
 
@@ -61,7 +61,7 @@ For setting up regular Bayesian tree inference we need to specify two model comp
   1. we need a prior on the topology and branch lengths 
   2. and we need to specify a substitution model
 
-First we'll set up the uniform tree prior in `main.Rev`. The following specifies a uniform prior on the **tree topology** $-$ this means that all possible tree configurations have the *same probability* under the prior. The tree is a [stochastic](exercise-03.html#stochastic) variable.
+First we'll set up the uniform tree prior in `main.Rev`. The following specifies a uniform prior on the **tree topology** - this means that all possible tree configurations have the *same probability* under the prior. The tree is a [stochastic](exercise-03.html#stochastic) variable.
 
 ```
 topology ~ dnUniformTopology(taxa)
@@ -183,7 +183,7 @@ Explore the output, including the Trace panel at the top.
 There are some indicators that our analyses *haven't* converged, including the ESS values which are highlighted in orange and red, and the trace plots.
 This means we haven't adequately approximated the posterior parameter space. 
 
-Let's increase the chain length to 10000 and rerun the MCMC. This might take up to 15 minutes $-$ while you're waiting for this to run, you could move on and set up the GTR substitution model. 
+Let's increase the chain length to 10000 and rerun the MCMC. This might take up to 15 minutes - while you're waiting for this to run, you could move on and set up the GTR substitution model. 
 
 You're already getting a flavor for how long MCMC analyses can take. It's very common to have to run empirical analyses for millions+ generations and it can take several days for a single analysis.
 
@@ -195,9 +195,9 @@ Once your longer run is complete, open the file again in Tracer. Your new output
 
 Actually, if wanted to use this output for publication, we'd still want to run the chain for longer because some parameters haven't mixed well but let's move on for now.
 
-Back in RevBayes we can also generate summary trees. We'll use the maximum a posteriori (MAP) tree $-$ this is the tree with the highest posterior probability. This is just one way of summarising the posterior distribution of trees. 
+Back in RevBayes we can also generate summary trees. We'll use the maximum a posteriori (MAP) tree - this is the tree with the highest posterior probability. This is just one way of summarising the posterior distribution of trees. 
 
-It is important to note the summary tree is not the "true" result $-$ the entire posterior distribution (which might contain multiple trees) is the full result. 
+It is important to note the summary tree is not the "true" result - the entire posterior distribution (which might contain multiple trees) is the full result. 
 
 
 ```
@@ -207,7 +207,7 @@ treetrace = readTreeTrace("output/primates_JC.trees", treetype = "non-clock")
 map_tree = mapTree(treetrace, "output/primates_JC_MAP.tree")
 ```
 
-You can open this tree in FigTree. Root the tree along the branch leading to `"Galeopterus_variegatus` $-$ this is our outgroup, the flying lemur.
+You can open this tree in FigTree. Root the tree along the branch leading to `"Galeopterus_variegatus` - this is our outgroup, the flying lemur.
 Next let's look at the node support. Go to Node Labels > Display > posterior.
 Your output should look something like this.
 
