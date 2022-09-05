@@ -6,7 +6,7 @@ permalink: "phylogenetics/bayesian"
 
 # Bayesian tree inference using RevBayes
 
-In this exercise we'll estimate of a tree of primates using a slightly longer alignment than the one we used before - you can download this from ({{site.baseurl}}/data/7_phylogenetics/primates_and_galeopterus_cytb.nex). 
+In this exercise we'll estimate of a tree of primates using a slightly longer alignment than the one we used before - you can download this from [here]({{site.baseurl}}/data/7_phylogenetics/primates_and_galeopterus_cytb.nex). 
 
 We'll use a straightforward Bayesian approach and a standard set of substitutions models. 
 
