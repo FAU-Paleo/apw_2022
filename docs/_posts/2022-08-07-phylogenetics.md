@@ -21,7 +21,7 @@ Please download and install the following software before the class on Monday.
 * [RevBayes](https://github.com/revbayes/revbayes/releases/tag/test-windows3) (release version = test-windows3)
 * [Tracer](http://tree.bio.ed.ac.uk/software/tracer/)
 
-## Day 1 (provisional)
+## Day 1
 
 | When   | What                                                                                       |
 |--------|--------------------------------------------------------------------------------------------|
@@ -30,12 +30,25 @@ Please download and install the following software before the class on Monday.
 | AM | [Exercise 2: Parsimony demo]({{site.baseurl}}/phylogenetics/parsimony)                   |
 | AM | [Introduction to model based phylogenetics]({{site.baseurl}}/slides/7_phylogenetics/part2.pdf)                     |
 | AM | [Exercise 3: Likelihood]({{site.baseurl}}/phylogenetics/likelihood)                  |
+| PM | [Brief intro to Bayesian inference and MCMC]({{site.baseurl}}/slides/7_phylogenetics/part4.pdf) |
 | PM | [Introduction to RevBayes and Rev langauge]({{site.baseurl}}/slides/7_phylogenetics/part3_RB_intro.pdf) |
 | PM | [Exercise 4: the Rev language]({{site.baseurl}}/phylogenetics/revbayes)        |
-| PM | [Brief intro to Bayesian inference and MCMC]({{site.baseurl}}/slides/7_phylogenetics/part4.pdf) |
 | PM | [Exercise 5: Bayesian tree inference using RevBayes]({{site.baseurl}}/phylogenetics/bayesian)        |
 |--------|--------------------------------------------------------------------------------------------|
 
+
+## Day 2 (provisional)
+
+| When   | What                                                                                       |
+|--------|--------------------------------------------------------------------------------------------|
+| AM | [Recap: the Rev langauge]({{site.baseurl}}/slides/7_phylogenetics/part3_RB_intro.pdf) |
+| AM | [Recap: Exercise 5]({{site.baseurl}}/phylogenetics/bayesian)        |
+| AM | [Introduction to divergence dating]({{site.baseurl}}/slides/7_phylogenetics/part5.pdf)                     |
+| AM | [Exercise 6: divergence dating]({{site.baseurl}}/phylogenetics/dating)                  |
+| PM | [Simulating trees and fossils]({{site.baseurl}}/slides/7_phylogenetics/fbd_sim) |
+| PM | [The fossilised birth-death process]({{site.baseurl}}/slides/7_phylogenetics/part3_RB_intro.pdf) |
+| PM | [Exercise 7: dating under the FBD process]({{site.baseurl}}/phylogenetics/fbd_inf)        |
+|--------|--------------------------------------------------------------------------------------------|
 
 <br>
 - - -
