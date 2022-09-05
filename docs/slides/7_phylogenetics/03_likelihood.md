@@ -34,7 +34,7 @@ We can do this using an approach called **neighbour-joining**. This simply calcu
 
 *In case of interest, for two sequences the [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) is simply the proportion of sites at which they differ. It's therefore one of the simplest ways to approximate evolutionary distances and generate a starting tree. But note this approach won't account for convergent evolution or homoplasy.*
 
-```{r starting, eval=FALSE}
+```
 # create a neighbour joining starting tree
 dm = phangorn::dist.hamming(dat)
 starting_tree = phangorn::NJ(dm)
@@ -42,7 +42,7 @@ starting_tree = phangorn::NJ(dm)
 
 The `phangorn` function `pml` (pml = phylogenetic maximum likelihood) calculates the likelihood of a tree given the data under a model specified by the user. We'll start with the simplest model of sequence evolution, the Jukes-Cantor (JC) model.
 
-```{r pml, eval=FALSE}
+```
 # calculate the likelihood of the tree given the data
 fitJC = phangorn::pml(starting_tree, data=dat, model = "JC")
 fitJC
@@ -52,7 +52,7 @@ fitJC
 
 Then we'll use the function `optim.pml` to find the tree with the best likelihood score under the Jukes-Cantor model. This function takes the tree and the starting values obtaining using the `pml` function and explores the tree space by switching around the branches. The argument `optNni = TRUE` tells the function to optimize the tree topology (i.e. find the tree with the highest likelihood), as well as the branch lengths and the model parameters. The parameters of the JC model are fixed, so the model parameters won't actually change in this case.
 
-```{r JC, eval=FALSE}
+```
 # estimate the tree using ML
 fitJC_opt = phangorn::optim.pml(fitJC, model = "JC", optNni = TRUE)
 fitJC_opt
@@ -62,13 +62,13 @@ As the ML algorithm proceeds it outputs information about the progress. You can 
 
 The function outputs a list with a bunch of values that might be of interest, including the tree.
 
-```{r list, eval=FALSE}
+```
 fitJC_opt$tree
 ```
 
 Next we'll do the same with the GTR substitution model. 
 
-```{r GTR, eval=FALSE}
+```
 fitGTR = phangorn::pml(starting_tree, data=dat, model = "GTR")
 fitGTR_opt = phangorn::optim.pml(fitGTR, model = "GTR", optNni = TRUE)
 fitGTR_opt
@@ -78,7 +78,7 @@ fitGTR_opt
 
 Let's look at the trees. Remember that by default trees generated based on a substitution model will be unrooted. First, let's root the tree using the Lemur.
 
-```{r root, eval=FALSE}
+```
 # identify the outgroup
 outgroup = "Lemur"
 
@@ -95,7 +95,7 @@ plot(GTR_tree_rooted)
 
 Since we have the maximum likelihood estimate under both models, we can use a straightforward model testing to identify the best fitting model. 
 
-```{r model_test, eval=FALSE}
+```
 AIC(fitJC_opt, fitGTR_opt)
 ```
 
@@ -105,17 +105,17 @@ AIC(fitJC_opt, fitGTR_opt)
 
 To output a tree from R and save it we can use the `ape` function `write.tree`. This outputs the tree in Newick format.
 
-```{r write_tr, eval=FALSE}
+```
 # write to screen
 ape::write.tree(tree)
 ```
 
-```{r write_tr2, eval=FALSE}
+```
 # write to file
 ape::write.tree(tree, file = "my-tree.nex")
 ```
 
-```{r hidden_notes, eval=FALSE, echo=FALSE}
+```
 ## Measuring uncertainty in maximum likelihood and parsimony tree building
 ## https://cran.r-project.org/web/packages/phangorn/vignettes/Trees.html
 ```
