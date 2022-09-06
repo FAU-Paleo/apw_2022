@@ -109,8 +109,7 @@ f3 = FossilSim::sim.fossils.poisson(psi, fossils = f2, tree = t1)
 
 plot(f3, t1)
 
-plot(f3, t1, reconstructed = TRUE) # reconstructed tree
-
+plot(f3, t1, reconstructed = TRUE) 
 ```
 
 > Can you increase / decrease the proportion of sampled ancestors?
