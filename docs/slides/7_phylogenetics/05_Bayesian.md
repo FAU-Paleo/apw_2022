@@ -227,11 +227,10 @@ alpha1 <- v(1,1,1,1,1,1) # 6 for rates
 alpha2 <- v(1,1,1,1) # 4 for state frequencies
 er ~ dnDirichlet(alpha1)
 freq ~ dnDirichlet(alpha2)
-```
 
-```
-er ~ dnDirichlet(alpha1)
-freq ~ dnDirichlet(alpha2)
+# moves
+moves.append( mvSimplexElementScale(er, alpha=10.0, weight=5.0) )
+moves.append( mvSimplexElementScale(freq, alpha=10.0, weight=5.0) )
 ```
 
 `alpha1` and `alpha2` are the parameters of the two Dirichlet distributions. These are used to specify  uniform Dirichlet distributions. 
