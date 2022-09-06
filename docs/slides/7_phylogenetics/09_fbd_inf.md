@@ -6,7 +6,7 @@ permalink: "phylogenetics/fbd_inf"
 
 ## Bayesian tree inference using the fossilised birth-death process RevBayes
 
-In this exercise we'll estimate of a time tree of bears under the fossilised birth-death (FBD) process. This time the data we'll use is a [morphological matrix]({{site.baseurl}}/data/7_phylogenetics/data/bears_morphology.nex) for 16 living and fossil bears. We'll also use [age information]({{site.baseurl}}/data/7_phylogenetics/data/bears_taxa.tsv) associated with all taxa. Download these files and check out the contents. 
+In this exercise we'll estimate of a time tree of bears under the fossilised birth-death (FBD) process. This time the data we'll use is a [morphological matrix]({{site.baseurl}}/data/7_phylogenetics/bears_morphology.nex) for 16 living and fossil bears. We'll also use [age information]({{site.baseurl}}/data/7_phylogenetics/bears_taxa.tsv) associated with all taxa. Download these files and check out the contents. 
 
 For this exercise create a folder called `exercise 6`. Then create two sub-directories: `data` and `scripts`. Recall that for divergence time estimation we need three model components, so we'll create the following scripts:
 
