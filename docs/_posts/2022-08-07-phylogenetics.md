@@ -47,7 +47,7 @@ Please download and install the following software before the class on Monday.
 | AM | [Exercise 6: divergence dating]({{site.baseurl}}/phylogenetics/dating)                  |
 | PM | [Exercise 7: Snack phylogeny]({{site.baseurl}}/phylogenetics/snack_phylogeny2)                   |
 | PM | [The fossilised birth-death process]({{site.baseurl}}/slides/7_phylogenetics/part6.pdf) |
-| PM | [Exercise 8: Simulating trees and fossils]({{site.baseurl}}/slides/7_phylogenetics/fbd_sim) |
+| PM | [Exercise 8: Simulating trees and fossils]({{site.baseurl}}/phylogenetics/fbd_sim) |
 | PM | [Exercise 9: dating under the FBD process]({{site.baseurl}}/phylogenetics/fbd_inf)        |
 |--------|--------------------------------------------------------------------------------------------|
 
