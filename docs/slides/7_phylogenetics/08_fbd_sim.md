@@ -113,4 +113,4 @@ plot(f3, t1, reconstructed = TRUE) # reconstructed tree
 
 ```
 
-> Can increase / decrease the proportion of sampled ancestors?
+> Can you increase / decrease the proportion of sampled ancestors?
