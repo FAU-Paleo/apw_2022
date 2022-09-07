@@ -1,4 +1,10 @@
-## Tree Building using Mk substitution model. 
+---
+title: ""
+layout: "post" 
+permalink: "phylogenetics/morpho"
+---
+
+## Tree Building using Mk substitution model
 
 In this exercise we'll estimate trees using different extensions of the Mk substitution model. Your chose of substitution model is any combination of the standard Mk model, with extensions for partitioning the data, allowing for unequal transition rates (+gamma), and correcting for collection biases (MkV).
 There is then a total of 8 models to choose 
@@ -30,7 +36,7 @@ library(ape)
 library(ggplot2)
 ``` 
 
-The morphological matrix used for this tutorial can be downloaded from here. THis matrix is from Agnolin et al 2007 Revista del Museo Argentino de Ciencias Naturales. It consists of 51 characters and 12 taxa of Brontornis.
+The morphological matrix used for this tutorial can be downloaded from [here]({{site.baseurl}}/data/7_phylogenetics/Agnolin_2007a_paleobiodb.nex). This matrix is from Agnolin et al 2007 Revista del Museo Argentino de Ciencias Naturales. It consists of 51 characters and 12 taxa of Brontornis.
 
 We will start with the analysis in RevBayes and then use R to look at the output. 
 
@@ -196,7 +202,8 @@ mymcmc.run(generations= 2000,tuningInterval=200)
 
 In R try to recreate plots showing the difference in tree length between your two models.
 
-The code to make the distance plots can be downloaded here. 
+The code to make the distance plots can be downloaded [here]({{site.baseurl}}/data/7_phylogenetics/Visual_model_comparison.r). 
+
 
 
 
