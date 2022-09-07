@@ -37,7 +37,7 @@ Please download and install the following software before the class on Monday.
 |--------|--------------------------------------------------------------------------------------------|
 
 
-## Day 2 (provisional)
+## Day 2
 
 | When   | What                                                                                       |
 |--------|--------------------------------------------------------------------------------------------|
@@ -49,6 +49,17 @@ Please download and install the following software before the class on Monday.
 | PM | [The fossilised birth-death process]({{site.baseurl}}/slides/7_phylogenetics/part6.pdf) |
 | PM | [Exercise 8: Simulating trees and fossils]({{site.baseurl}}/phylogenetics/fbd_sim) |
 | PM | [Exercise 9: dating under the FBD process]({{site.baseurl}}/phylogenetics/fbd_inf)        |
+|--------|--------------------------------------------------------------------------------------------|
+
+## Day 3 (provisional)
+
+| When   | What                                                                                       |
+|--------|--------------------------------------------------------------------------------------------|
+| AM | [Recap: Exercise 9]({{site.baseurl}}/phylogenetics/fbd_inf)        |
+| AM | [Morphological models]({{site.baseurl}}/phylogenetics/morpho)        |
+| AM | [Exercise 10: Bayesian model selection]({{site.baseurl}}/phylogenetics/selection)        |
+| PM | [Exercise 11: Model adequacy]({{site.baseurl}}/phylogenetics/adequacy)        |
+| PM | [Beyond topology]({{site.baseurl}}/phylogenetics/beyond) |
 |--------|--------------------------------------------------------------------------------------------|
 
 <br>
