@@ -140,7 +140,7 @@ moves.append( mvFossilTimeSlideUniform(tree, origin_time, weight = 5.0) )
 
 ## Strict clock model
 
-For simplicity we'll use a strict clock model to describe the rate of character change over time, assuming the rate is constant over time and across all branches in our tree. **Hint**: you can use your clock script from the [previous exercise]({{site.baseurl}}/data/7_phylogenetics/phylogenetics/dating).
+For simplicity we'll use a strict clock model to describe the rate of character change over time, assuming the rate is constant over time and across all branches in our tree. **Hint**: you can use your clock script from the [previous exercise]({{site.baseurl}}/phylogenetics/dating).
 
 Open your `clock_strict_morpho.Rev` script. We don't know the rate of evolution, so as before we'll use an exponential prior. 
 
@@ -269,7 +269,7 @@ Now you can go ahead and set up the [GTR]{exercise-05.html#GTR} model as before.
 
 ### Running the analysis under the FBD
 
-Can you try running the analysis [under the prior](exercise-05.html#prior)?
+Can you try running the analysis [under the prior]({{site.baseurl}}/data/7_phylogenetics/phylogenetics/dating#prior)?
 Note that its not strictly "under the prior" because the fossil ages are data but RevBayes doesn't consider the FBD as part of the likelihood, so you can still choose the regular option for running the analysis under the prior to distinguish the signal coming from the FBD/fossil age data vs. the FBD combined with the sequence/morpho data. 
 
 > Compare you results to the posterior obtained using in the previous steps. What information do we gain from the morphological / molecular data?

@@ -7,7 +7,7 @@ permalink: "phylogenetics/morpho"
 ## Tree Building using Mk substitution model
 
 In this exercise we'll estimate trees using different extensions of the Mk substitution model. Your choice of substitution model is any combination of the standard Mk model, with extensions for partitioning the data, allowing for unequal transition rates (+gamma), and correcting for collection biases (MkV).
-There is then a total of 8 models to choose from.
+There is then a total of 8 models to choose from:
 
 ```
 Mk
