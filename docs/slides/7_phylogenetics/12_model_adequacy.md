@@ -9,7 +9,7 @@ permalink: "phylogenetics/model_adequacy"
 In this exercise we will use posterioir predictive simulations to assess the fit of an evolutionary model to our data. Again, use the two models you chose for the past two exercises.
 The code highlighted in this tutorial is just to show the more important parts of a script. You do not need to copy and paste them into the terminal. Instead, edit the scripts in your editor and use `source(" ")`to read them into RevBayes.
 
-There are 6 rev scripts for the analysis
+There are [6 rev scripts]({{site.baseurl}}/data/7_phylogenetics/model_adequacy.zip) for the analysis:
  
 1. `MCMC_Simulation.rev` runs an MCMC on your empirical dataset and samples parameters from the posterior
 2. `PP_Simulation.rev` takes the output from the first MCMC to simulated new datasets under the chosen model
