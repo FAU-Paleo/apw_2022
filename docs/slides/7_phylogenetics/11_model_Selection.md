@@ -37,3 +37,13 @@ Save this number as a csv file so you can compare it to the output from your oth
 ```
 write(ss.marginal() , filename= "output/" + model_name  + "/output_model_selection/" + analysis_name + "_marginal_likelihood.csv", "\n", append=TRUE)
 ```
+
+
+When you have the marginal likelihoods for both models you can caluclate the bayes factor in support for mk_one as
+
+    ss_mk_one - ss_mk_two 
+    
+Interpret whether this difference is meaningful using this table. 
+
+
+![img]({{site.baseurl}}/images/Interpreting_Bayes_factors.png)
