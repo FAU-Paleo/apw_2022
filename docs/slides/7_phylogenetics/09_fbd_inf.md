@@ -145,9 +145,9 @@ For simplicity we'll use a strict clock model to describe the rate of character 
 Open your `clock_strict_morpho.Rev` script. We don't know the rate of evolution, so as before we'll use an exponential prior. 
 
 ```
-branch_rates ~ dnExponential(10.0)
+branch_rates_morph ~ dnExponential(10.0)
 
-moves.append( mvScale(branch_rates, lambda = 0.5, tune = true, weight = 3.0) )
+moves.append( mvScale(branch_rates_morph, lambda = 0.5, tune = true, weight = 3.0) )
 ```
 
 This rate will be used for all branches.
@@ -165,8 +165,8 @@ Q <- fnJC(2)
 Then we'll define a stochastic node representing a character matrix and "clamp" that variable to our morphological data. Note that this time we need to use `type = "Standard"`.
 
 ```
-seq ~ dnPhyloCTMC(tree = tree, Q = Q, type = "Standard", branchRates = branch_rates)
-seq.clamp(morpho)
+seq_morph ~ dnPhyloCTMC(tree = tree, Q = Q, type = "Standard", branchRates = branch_rates)
+seq_morph.clamp(morpho)
 ```
 
 ## MCMC settings
@@ -243,7 +243,7 @@ Some extra things to try. **Make sure you rename the output files so you don't o
 
 ### Add molecular sequence data
 
-Try adding the molecular sequence alignment from the previous exercise. 
+Try adding the molecular sequence alignment from the [previous exercise]({{site.baseurl}}/data/7_phylogenetics/phylogenetics/dating).
 
 There's just a few extra steps we need to add when we read in the data, at the beginning of `main.Rev`.
 

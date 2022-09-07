@@ -56,9 +56,12 @@ Please download and install the following software before the class on Monday.
 | When   | What                                                                                       |
 |--------|--------------------------------------------------------------------------------------------|
 | AM | [Recap: Exercise 9]({{site.baseurl}}/phylogenetics/fbd_inf)        |
-| AM | [Morphological models]({{site.baseurl}}/slides/7_phylogenetics/Part7.pdf)        |
-| AM | [Exercise 10: Bayesian model selection]({{site.baseurl}}/phylogenetics/morpho)        |
-| PM | [Exercise 11: Model adequacy]({{site.baseurl}}/phylogenetics/adequacy)        |
+| AM | [Morphological models]({{site.baseurl}}/slides/7_phylogenetics/Laura_part1.pdf)        |
+| AM | [Exercise 10: morphological models in RevBayes]({{site.baseurl}}/phylogenetics/morpho)        |
+| PM | [Bayesian model selection]({{site.baseurl}}/slides/7_phylogenetics/Laura_part2.pdf)        |
+| PM | [Exercise 11: Model selection]({{site.baseurl}}/phylogenetics/model_selection)        |
+| AM | [Model adequecy]({{site.baseurl}}/slides/7_phylogenetics/Laura_part3.pdf)        |
+| PM | [Exercise 12: Model adequecy using RevBayes]({{site.baseurl}}/phylogenetics/model_adequacy)        |
 | PM | [Beyond topology]({{site.baseurl}}/phylogenetics/beyond) |
 |--------|--------------------------------------------------------------------------------------------|
 
