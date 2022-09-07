@@ -56,7 +56,7 @@ Please download and install the following software before the class on Monday.
 | When   | What                                                                                       |
 |--------|--------------------------------------------------------------------------------------------|
 | AM | [Recap: Exercise 9]({{site.baseurl}}/phylogenetics/fbd_inf)        |
-| AM | [Morphological models]({{site.baseurl}}/slides/7_phylogenetics/part7.pdf)        |
+| AM | [Morphological models]({{site.baseurl}}/slides/7_phylogenetics/Part7.pdf)        |
 | AM | [Exercise 10: Bayesian model selection]({{site.baseurl}}/phylogenetics/selection)        |
 | PM | [Exercise 11: Model adequacy]({{site.baseurl}}/phylogenetics/adequacy)        |
 | PM | [Beyond topology]({{site.baseurl}}/phylogenetics/beyond) |
