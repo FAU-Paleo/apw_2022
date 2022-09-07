@@ -119,9 +119,3 @@ The rscript should produce a figures directory containing 3 files:
 
 
 3. `results.csv` Stores the effect sizes for each model.
-
-
-### Next Tasks
-
-Try running the ?
-
