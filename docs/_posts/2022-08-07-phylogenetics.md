@@ -51,7 +51,7 @@ Please download and install the following software before the class on Monday.
 | PM | [Exercise 9: dating under the FBD process]({{site.baseurl}}/phylogenetics/fbd_inf)        |
 |--------|--------------------------------------------------------------------------------------------|
 
-## Day 3 (provisional)
+## Day 3
 
 | When   | What                                                                                       |
 |--------|--------------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ Please download and install the following software before the class on Monday.
 | PM | [Exercise 11: Model selection]({{site.baseurl}}/phylogenetics/model_selection)        |
 | AM | [Model adequecy]({{site.baseurl}}/slides/7_phylogenetics/Laura_part3.pdf)        |
 | PM | [Exercise 12: Model adequecy using RevBayes]({{site.baseurl}}/phylogenetics/model_adequacy)        |
-| PM | [Beyond topology]({{site.baseurl}}/phylogenetics/beyond) |
+| PM | [Beyond topology: PCMs]({{site.baseurl}}/slides/7_phylogenetics/part7.pdf)        |
 |--------|--------------------------------------------------------------------------------------------|
 
 <br>
