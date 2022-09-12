@@ -72,7 +72,7 @@ Please download and install the following software before the class on Monday.
 
 ## Acknowledgements
 
-This course draws on material and exercises produced by [Josh Drew](https://labroides.wordpress.com/candy-phylogeny/), [Paul Lewis](https://www.youtube.com/watch?v=1r4z0YJq580), Tracy Heath, Joëlle Bardio-Sottani, April Wright, Walker Pett, Joshua Justison, Sebastian Höhna, and many other [RevBayesian](https://revbayes.github.io) community members. 
+This course draws on material and exercises produced by [Josh Drew](https://labroides.wordpress.com/candy-phylogeny/), [Paul Lewis](https://www.youtube.com/watch?v=1r4z0YJq580), Tracy Heath, Joëlle Bardio-Sottani, April Wright, Walker Pett, Joshua Justison, Sebastian Höhna, and many other [RevBayesian](https://revbayes.github.io) community contributors. 
 
 
 
