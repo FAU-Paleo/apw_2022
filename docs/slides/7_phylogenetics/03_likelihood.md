@@ -115,11 +115,6 @@ ape::write.tree(tree)
 ape::write.tree(tree, file = "my-tree.nex")
 ```
 
-```
-## Measuring uncertainty in maximum likelihood and parsimony tree building
-## https://cran.r-project.org/web/packages/phangorn/vignettes/Trees.html
-```
-
 ## Other resources for buidling trees using maximum likelihood
 
 `phangorn` is a very useful package but you won't often see published trees generated using this package. There are other more specialized software packages for tree building using maximum likelihood. Some of these feature additional substitution models or have been optimized for the analysis of large data sets. The analysis in this exercise is very fast because our data set has a small number of species and characters (only 150) -- most DNA datasets are *much* larger than this. Two popular alternative likelihood based programs for tree building are  [RAxML](https://cme.h-its.org/exelixis/web/software/raxml/) and [IQTREE](http://www.iqtree.org/).

@@ -13,7 +13,6 @@ permalink: "phylogenetics/"
 | Sept 7 | **Day 14**: Model selection, model adequacy, beyond topology                               |
 |--------|--------------------------------------------------------------------------------------------|
 
-
 ## Required software
 
 Please download and install the following software before the class on Monday. 
@@ -70,3 +69,11 @@ Please download and install the following software before the class on Monday.
 <br>
 
 <iframe src="https://giphy.com/embed/R46UjhMjeOGVhKS1sD" width="480" height="354" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/tcm-black-excellence-nicholas-brothers-the-R46UjhMjeOGVhKS1sD">via GIPHY</a></p>
+
+## Acknowledgements
+
+This course draws on material and exercises produced by [Josh Drew](https://labroides.wordpress.com/candy-phylogeny/), [Paul Lewis](https://www.youtube.com/watch?v=1r4z0YJq580), Tracy Heath, Joëlle Bardio-Sottani, April Wright, Walker Pett, Joshua Justison, Sebastian Höhna, and many other [RevBayesian](https://revbayes.github.io) community members. 
+
+
+
+

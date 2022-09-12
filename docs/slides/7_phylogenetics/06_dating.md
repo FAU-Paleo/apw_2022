@@ -263,4 +263,8 @@ You can also take a look at the MCC tree to see the differences for other nodes.
 
 > How would you intepret these differences or similarities? What information are we gaining from the sequence data? What if our prior information is incorrect?
 
-A complete set of scripts for this exercise can be downloaded [here]({{site.baseurl}}/data/7_phylogenetics/exercise-RB02-scripts.zip). 
+A complete set of scripts for this exercise can be downloaded [here]({{site.baseurl}}/data/7_phylogenetics/exercise-RB02-scripts.zip).
+
+### Acknowledgements
+
+This exercise is adapted from the one described [here](https://revbayes.github.io/tutorials/clocks/) by Tracy Heath.  
