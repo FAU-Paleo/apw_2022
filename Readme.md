@@ -15,14 +15,14 @@ If you have Jekyll installed on your computer, you can also render and check out
 
 | file                                 | correspondent(s) |
 |--------------------------------------|------------------|
-| 2022-08-01-toolset.md                | Adam/Nuss        |
-| 2022-08-02-paleodiversity.md         | Wolfgang/Emma    |
-| 2022-08-03-morphometrics.md          | Manuel           |
-| 2022-08-04-gis.md                    | Adam             |
-| 2022-08-05-global-diversity.md       | Adam/Emma/Carl   |
-| 2022-08-06-div-cmr-abiotic-biotic.md | Lee Hsiang       |
-| 2022-08-07-phylogenetics.md          | Rachel/Laura     |
-| 2022-08-08-niches.md                 | Erin             |
+| 2022-08-22-toolset.md                | Adam/Nuss        |
+| 2022-08-24-paleodiversity.md         | Wolfgang/Emma    |
+| 2022-08-26-morphometrics.md          | Manuel           |
+| 2022-08-29-gis.md                    | Adam             |
+| 2022-08-30-global-diversity.md       | Adam/Emma/Carl   |
+| 2022-09-01-div-cmr-abiotic-biotic.md | Lee Hsiang       |
+| 2022-09-05-phylogenetics.md          | Rachel/Laura     |
+| 2022-09-08-niches.md                 | Erin             |
 
 - For novice git users: to avoid chaos please only edit the page that you are responsible for and use the GitHub interface. If all of this feels overwhelming, don't worry. I (Adam) is more than happy to put material on for you if you'd like!
 
